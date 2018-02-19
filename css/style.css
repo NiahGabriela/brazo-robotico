@@ -1,0 +1,43 @@
+body
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header
+{
+  background-color: #7290A8;
+  flex-basis: 100%;
+}
+
+aside
+{
+  flex-basis: 24%;
+  border: 1px solid black;
+}
+
+footer
+{
+  border: 1px solid black;
+}
+section
+{
+  flex-basis: 75%;
+  border: 1px solid black;
+}
+
+h1
+{
+  border: 1px solid black;
+  display: inline-block;
+}
+.div-header span
+{
+  border: 1px solid black;
+}
+
+.div-header
+{
+  display: flex;
+  justify-content: flex-end;
+}
