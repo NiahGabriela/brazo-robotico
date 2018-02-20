@@ -57,11 +57,21 @@ aside a
   padding: 10%;
 }
 
-/* Estilo Footer */
+/*----- Estilo Footer -----*/
 footer
 {
   border: 1px solid black;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
 }
+
+footer a
+{
+  margin: 2%;
+}
+
+
 section
 {
   flex-basis: 75%;
