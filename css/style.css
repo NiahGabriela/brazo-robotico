@@ -8,23 +8,35 @@ header
 {
   background-color: #7290A8;
   flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1
 {
   border: 1px solid black;
   display: inline-block;
-}
-.div-header span
-{
-  border: 1px solid black;
+  margin-left: 3%;
 }
 
 .div-header
 {
   display: flex;
-  justify-content: flex-end;
+  flex-basis: 25%;
+  align-items: center;
+  border: 1px solid black;
+  justify-content: space-around;
 }
+
+.div-header a
+{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 4% 8%;
+}
+
+
+
 /*----- Estilo Aside -----*/
 aside
 {
@@ -44,12 +56,6 @@ aside a
   border: 1px solid black;
   padding: 10%;
 }
-
-/* aside span
-{
-  border: 1px solid black;
-  padding: 10%;
-} */
 
 /* Estilo Footer */
 footer
