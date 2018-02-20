@@ -38,8 +38,18 @@ aside
 
 aside a
 {
+  width: 80%;
   text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10%;
 }
+
+/* aside span
+{
+  border: 1px solid black;
+  padding: 10%;
+} */
 
 /* Estilo Footer */
 footer
