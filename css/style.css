@@ -30,6 +30,8 @@ h1
 
 .div-header a
 {
+  flex-basis: 30%;
+  text-align: center;
   text-decoration: none;
   border: 1px solid black;
   padding: 4% 8%;
