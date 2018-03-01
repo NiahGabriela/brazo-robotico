@@ -64,20 +64,6 @@ aside a
     etiqueta a y el aside) */
 }
 
-aside.col-md-3
-{
-  padding-left: 0;
-  padding-right: 0;
-  /* quita el padding que bootstrap ponen por defecto (15) */
-}
-
-.no-margin
-{
-  margin-left: 0;
-  margin-right: 0;
-  /* quita el margin que por defecto pone bootstrap
-  el espacio que tenia del lado izquierdo hasta el aside */
-}
 
 /*----- Estilo Footer -----*/
 footer
@@ -85,21 +71,19 @@ footer
   border: 1px solid black;
   flex-basis: 100%;
   display: flex;
-  justify-content: center;
+  /* flex-direction: column-reverse; */
 }
 
 footer a
 {
-  margin: 2%;
+  /* margin: 2%;
+  flex-direction: row; */
 }
 
+/*seccion donde va el contenido al centro  */
 
-section
+.central
 {
-  flex-basis: 75%;
-  border: 1px solid black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+  border: 1px solid black;
 }
