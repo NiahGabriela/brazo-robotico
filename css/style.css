@@ -6,12 +6,18 @@ body
   font-family: 'Abel';
   font-size: 1.2em;
   color: green;
+  height: 100%;
 
 }
-
+*
+{
+  margin: 0;
+  padding: 0;
+}
 /*----- Estilo Header -----*/
 header
 {
+  padding: 1.5rem;
   background-color: #7290A8;
   flex-basis: 100%;
   display: flex;
@@ -23,37 +29,6 @@ header
     color: black;
 }
 
-
-#p-name
-{
-  border: 1px solid black;
-  color: #0B6887;
-  margin: 2% 0;
-  font-size: 3em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* No está funcionando */
-}
-
-@media (max-width: 768px)
-{
-    #p-name
-    {
-      font-size: 2em;
-    }
-
-    /* .cust-container
-    {
-      margin-left: 0;
-      margin-right: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    .div-Header
-    {
-      margin-left: 30%;
-    } */
-}
 .div-header
 {
   display: flex;
@@ -121,8 +96,15 @@ footer
 {
 
   display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
   background-color: #7290A8;
-  flex-direction: column-reverse;
+  text-align: center;
+
 }
 
 .main-container
@@ -130,14 +112,6 @@ footer
    display: flex;
    flex-basis: 100%;
    flex-flow: row wrap;
-
-}
-
-
-footer a
-{
-  /* margin: 2%; */
-  flex-direction: row;
 }
 
 a
