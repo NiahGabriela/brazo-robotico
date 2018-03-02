@@ -104,11 +104,12 @@ aside
 {
   flex-basis: 20%;
   border: 1px solid black;
+  /* display: -moz-box; */
   display: flex;
   border: 0;
   flex-direction: column;
   align-items: center;
-  justify-content:space-around;
+  justify-content:center;
   /* background-color: #7290A8; */
   height: 450px;
 }
@@ -151,6 +152,11 @@ footer a:hover
   font-weight:bold;
 }
 
+footer a
+{
+  color: #4E7AB5;
+}
+
 /*----- Estilo Footer -----*/
 footer
 {
@@ -163,7 +169,7 @@ footer
   left: 0; */
   padding: 1rem;
   background-color: transparent;
-  border-top: 4px solid #586069;
+  border-top: 2px solid #586069;
   text-align: center;
 
 }
@@ -217,4 +223,6 @@ a
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
+  background-image: linear-gradient(100deg, rgba(255,255,255,0)
+  60%, #fff),linear-gradient(70deg, #dbedff 32%, #ebfff0);
 }
