@@ -11,12 +11,14 @@ body
 /*----- Estilo Header -----*/
 header
 {
- padding: 1.1rem;
- background-color: #7290A8;
- flex-basis: 100%;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
+   padding: 1.1rem;
+   background-color: #7290A8;
+   flex-basis: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+
 }
 
 .bot
@@ -56,10 +58,19 @@ header a
 button
 {
    font-size: .5em;
-   background-color: #aaaaaa;
+   background-color: #F5F6FE;
    padding: 8px;
    border-radius: 8px;
-   border: 2px solid black;
+   border: 1px solid black;
+   box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.2);
+   box-shadow: inset 1px 0 4px black;
+}
+
+button:hover
+{
+  background: rgba(0,0,0,0);
+  color: white;
+  box-shadow: inset 0 0 6px 3px grey;
 }
 
 header .buttons
