@@ -16,21 +16,12 @@ body
 /*----- Estilo Header -----*/
 header
 {
-  padding: 1.1rem;
+  padding: 1.5rem;
   background-color: #7290A8;
   flex-basis: 100%;
   display: flex;
   justify-content: space-between;
 }
-
-img {
-    border-radius: 50%;
-    opacity: 0.8;
-    width: 25%;
-    margin: 0;
-}
-
-
 
 .title a
 {
@@ -48,15 +39,7 @@ img {
   margin-top: 1.5%;
 }
 
-header a
-{
-  font-size: 1.4em;
-}
 
-button
-{
-  font-size: 13px;
-}
 .div-header a
 {
   flex-basis: 45%;
