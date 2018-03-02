@@ -15,9 +15,14 @@ header
  background-color: #7290A8;
  flex-basis: 100%;
  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
 }
 
-
+.bot
+{
+  align-self: center;
+}
 
 img
 {
@@ -96,7 +101,7 @@ aside
   flex-direction: column;
   align-items: center;
   justify-content:space-around;
-  background-color: #7290A8;
+  /* background-color: #7290A8; */
   height: 450px;
 }
 html,
@@ -111,10 +116,12 @@ aside a
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid #AAAAAA;
+  background-color: #DDDDDD;
   padding: 5%;
   height: 30px;
   align-items: center;
+  color: #7290A8;
   /* box-sizing: content-box; */
   /* sobre escribo la propiedad box-sizing: border-box
   que toma en cuenta el padding y el border y modifica
