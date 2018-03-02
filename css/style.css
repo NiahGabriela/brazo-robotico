@@ -131,21 +131,6 @@ footer a:hover
 }
 
 /*----- Estilo Footer -----*/
-/* footer
-{
-
-  display: flex;
-  flex-basis: 100%;
-  justify-content: space-around;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #7290A8;
-  text-align: center;
-
-} */
 footer
 {
   display: flex;
