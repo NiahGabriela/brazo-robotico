@@ -116,11 +116,38 @@ aside a
     etiqueta a y el aside) */
 }
 
+aside a:hover
+{
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight:bolder;
+}
+
+footer a:hover
+{
+  text-decoration: none;
+  color:#4E7AB2;
+  font-weight:bold;
+}
 
 /*----- Estilo Footer -----*/
-footer
+/* footer
 {
 
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #7290A8;
+  text-align: center;
+
+} */
+footer
+{
   display: flex;
   flex-basis: 100%;
   justify-content: space-around;
@@ -129,7 +156,9 @@ footer
   bottom: 0;
   left: 0; */
   padding: 1rem;
-  background-color: #7290A8;
+  background-color: transparent;
+  border-top: 4px solid #586069;
+
   text-align: center;
 
 }
