@@ -73,8 +73,13 @@ aside
   align-items: center;
   justify-content: space-around;
   background-color: #7290A8;
+  height: 450px;
 }
-
+html,
+body
+{
+  height: 100%;
+}
 aside a
 {
   width: 80%;
@@ -95,16 +100,34 @@ footer
 {
 
   display: flex;
+  flex-basis: 100%;
   justify-content: space-around;
-  position: absolute;
+  /* position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 0; */
   padding: 1rem;
   background-color: #7290A8;
   text-align: center;
 
 }
+
+/* @media (max-width: 1024px) {
+  footer
+  {
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #7290A8;
+    text-align: center;
+
+  }
+} */
 
 .main-container
 {
@@ -125,7 +148,15 @@ a
 {
   display: flex;
   flex-basis: 78%;
+  height: 450px;
   /* border: 1px solid black;
   border: 0; */
 
+}
+
+.middle
+{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
 }
