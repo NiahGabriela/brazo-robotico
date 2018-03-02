@@ -22,7 +22,7 @@
     Código de conducta
 
     AUTORAS:
-    Diana Gabriela Hernandez Gomez    
+    Diana Gabriela Hernández Gómez    
     GITHUB :https://github.com/NiahGabriela
     Pilar Alejandra Izquierdo Lopez   
     GITHUB :https://github.com/pilaralejandra
