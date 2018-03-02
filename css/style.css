@@ -192,6 +192,8 @@ a
   display: flex;
   flex-basis: 78%;
   height: 450px;
+  justify-content: center;
+  align-items: center; 
   /* border: 1px solid black;
   border: 0; */
 
