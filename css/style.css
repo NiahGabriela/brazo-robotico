@@ -2,8 +2,8 @@ body
 {
  /* display: flex;
  flex-wrap: wrap; */
- font-family: 'Abel';
- font-size: 1.2em;
+ /* font-family: 'Headland One', serif; */
+ font-size: 1.5em;
  color: green;
 
 }
@@ -37,6 +37,7 @@ img
 .title a
 {
    color: black;
+   font-family: 'Monoton', cursive;
 }
 
 .div-header
@@ -49,12 +50,6 @@ img
  padding: 0;
  margin-top: 1.5%;
 }
-
-header a
-{
- font-size: 1.4em;
-}
-
 button
 {
    font-size: .5em;
@@ -84,12 +79,23 @@ header .buttons
  text-align: center;
  text-decoration: none;
  border: 1px solid black;
+
+ /* font-style: italic; */
+
  padding: 4% 5%;
  margin: 3%;
  font-weight: bold;
  /* box-sizing: content-box; */
 }
 
+header div a:hover
+{
+ text-decoration: none;
+ font-size: 1.5em;
+ font-weight:bolder;
+ color: #
+
+}
 header.container
 {
  display: flex;
@@ -141,7 +147,7 @@ aside a
 aside a:hover
 {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight:bolder;
 }
 
@@ -153,19 +159,24 @@ footer a:hover
 }
 
 /*----- Estilo Footer -----*/
+footer a
+{
+  padding: 2em;
+  color: #586069;
+  font-size: .8em;
+}
 footer
 {
   display: flex;
   flex-basis: 100%;
   justify-content: space-around;
-  /* position: absolute;
-  right: 0;
+  /* position: absolute */
+  /* right: 0;
   bottom: 0;
-  left: 0; */
-  padding: 1rem;
+  left: 0; */ */
+  padding: 2em;
   background-color: transparent;
   border-top: 4px solid #586069;
-
   text-align: center;
 
 }
