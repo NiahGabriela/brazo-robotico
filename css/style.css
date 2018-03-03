@@ -89,17 +89,17 @@ header .buttons
 
 
 /*----- Estilo Aside -----*/
-aside
+/* aside
 {
   flex-basis: 20%;
   border: 1px solid black;
-  /* display: -moz-box; */
+  /* display: -moz-box;
   display: flex;
   border: 0;
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  /* background-color: #7290A8; */
+  /* background-color: #7290A8;
   height: 450px;
 }
 
@@ -120,7 +120,7 @@ aside a
   /* sobre escribo la propiedad box-sizing: border-box
   que toma en cuenta el padding y el border y modifica
   el width (el espacio raro que se veia entre la
-    etiqueta a y el aside) */
+    etiqueta a y el aside)
 }
 
 aside a:hover
@@ -128,7 +128,7 @@ aside a:hover
   text-decoration: none;
   font-size: 1.5em;
   font-weight:bolder;
-}
+} */
 
 /*----- Estilo Footer -----*/
 footer
