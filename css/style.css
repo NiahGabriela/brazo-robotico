@@ -1,68 +1,78 @@
+/*----- Reglas generales -----*/
 body
 {
- /* display: flex;
- flex-wrap: wrap; */
- font-family: 'Abel';
- font-size: 1.2em;
- color: green;
+  font-family: 'Abel';
+  font-size: 1.2em;
+  color: green;
+}
 
+html,
+body
+{
+  height: 100%;
+}
+
+.main-container
+{
+  display: flex;
+  flex-basis: 100%;
+  flex-flow: row wrap;
+}
+
+a
+{
+  text-decoration: none;
+  color: white;
 }
 
 /*----- Estilo Header -----*/
 header
 {
-   padding: 1.1rem;
-   background-color: #7290A8;
-   flex-basis: 100%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-
+  padding: 1.1rem;
+  background-color: #7290A8;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+header a
+{
+  font-size: 1.4em;
+}
+
+header.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img
+{
+  border-radius: 50%;
+  opacity: 0.8;
+  width: 25%;
+  margin: 0;
+}
+
+
+/*----- Estilo botones del header -----*/
 .bot
 {
   align-self: center;
 }
 
-img
-{
-   border-radius: 50%;
-   opacity: 0.8;
-   width: 25%;
-   margin: 0;
-}
-
-.title a
-{
-   color: black;
-}
-
-.div-header
-{
- display: flex;
- /* flex-basis: 30%; */
- /* align-items: center; */
- border: 1px solid black;
- /* justify-content: space-around; */
- padding: 0;
- margin-top: 1.5%;
-}
-
-header a
-{
- font-size: 1.4em;
-}
-
 button
 {
-   font-size: .5em;
-   background-color: #F5F6FE;
-   padding: 8px;
-   border-radius: 8px;
-   border: 1px solid black;
-   box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.2);
-   box-shadow: inset 1px 0 4px black;
+  font-size: .5em;
+  background-color: #F5F6FE;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.2);
+  box-shadow: inset 1px 0 4px black;
 }
 
 button:hover
@@ -74,29 +84,8 @@ button:hover
 
 header .buttons
 {
-    justify-content:
+  justify-content:
 }
-
-.div-header a
-{
- flex-basis: 45%;
- text-align: center;
- text-decoration: none;
- border: 1px solid black;
- padding: 4% 5%;
- margin: 3%;
- font-weight: bold;
- /* box-sizing: content-box; */
-}
-
-header.container
-{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-around;
- align-items: center;
-}
-
 
 
 /*----- Estilo Aside -----*/
@@ -113,11 +102,7 @@ aside
   /* background-color: #7290A8; */
   height: 450px;
 }
-html,
-body
-{
-  height: 100%;
-}
+
 aside a
 {
   width: 80%;
@@ -145,6 +130,19 @@ aside a:hover
   font-weight:bolder;
 }
 
+/*----- Estilo Footer -----*/
+footer
+{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: transparent;
+  border-top: 2px solid #586069;
+  text-align: center;
+
+}
+
 footer a:hover
 {
   text-decoration: none;
@@ -155,23 +153,6 @@ footer a:hover
 footer a
 {
   color: #4E7AB5;
-}
-
-/*----- Estilo Footer -----*/
-footer
-{
-  display: flex;
-  flex-basis: 100%;
-  justify-content: space-around;
-  /* position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0; */
-  padding: 1rem;
-  background-color: transparent;
-  border-top: 2px solid #586069;
-  text-align: center;
-
 }
 
 /* @media (max-width: 1024px) {
@@ -191,19 +172,6 @@ footer
   }
 } */
 
-.main-container
-{
-  display: flex;
-  flex-basis: 100%;
-  flex-flow: row wrap;
-}
-
-a
-{
-
- text-decoration: none;
- color: white;
-}
 /*seccion donde va el contenido al centro  */
 
 .central
@@ -213,9 +181,6 @@ a
   height: 450px;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black;
-  border: 0; */
-
 }
 
 .middle
