@@ -1,16 +1,27 @@
+/* Ocultando botones de iniciar sesión y crear cuenta */
 .buttons
 {
   display: none;
 }
+/* Mostrando boton de cerrar sesión */
 .button-logout
 {
   display: block;
 }
+/* Cambiando el display para que se muestre en el centro */
 .middle
 {
   display: flex;
   justify-content: center;
 }
+/* Generales */
+label,
+span,
+button
+{
+  flex-basis: auto;
+}
+/* Section donde va el contenido de "Ganaste" */
 section
 {
   display: flex;
@@ -21,14 +32,7 @@ section
   margin-top: 15px;
   border: 2px solid #FFFFFF;
 }
-
-label,
-span,
-button
-{
-  flex-basis: auto;
-}
-
+/* Reglas del div que contiene al span con la leyenda "¡Tu equipo ha ganado!" */
 .header-you-won
 {
   flex-basis: 100%;
@@ -46,7 +50,7 @@ button
   padding: 1px;
 
 }
-
+/* Reglas del div donde se encuentran los label, input y button */
 .div-score
 {
   flex-basis: 45%;
@@ -74,7 +78,7 @@ button
 {
   background-color: #53ae85;
 }
-
+/* Reglas para el div donde se encuentra la imagen */
 .div-score-img
 {
   flex-basis: 45%;
@@ -93,6 +97,7 @@ button
   height: 100%;
   margin-right: 2px;
 }
+/* Media Queries */
 @media only screen and (max-width: 575px)
 {
   .div-score-img
@@ -107,7 +112,7 @@ button
   }
   .header-you-won span
   {
-    font-size: 25px;  
+    font-size: 25px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px)
