@@ -2,19 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Página Principal</title>
+    <title>Ganaste</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-game.css">
     <link href="https://fonts.googleapis.com/css?family=Headland+One|Londrina+Solid|Monoton|Prosto+One" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon/pestaña.icon">
+    <link rel="shortcut icon" href="../favicon/pestaña.icon">
   </head>
   <body>
     <div class="main-container">
       <header>
         <div class="logo">
             <a href="index.html">
-            <img id="logo" src="img/logo.png" alt="Logo"/>
+            <img id="logo" src="../img/logo.png" alt="Logo"/>
             </a>
             <a href="index.html">Brazo Robótico</a>
         </div>
@@ -28,13 +29,25 @@
       </header>
 
           <div class="middle">
-            <!-- <label for="show-menu" class="show-menu">Menu</label>
-            <input type="checkbox" id="show-menu" role="button">
-                <ul id="menu">
-                <li><a href="#">Cómo jugar</a></li>
-                <li><a href="http://www.google.com">Terminos y Condiciones</a></li>
-            </ul> -->
-          <p>aqui va a ir toooooodo</p>
+            <section class="sec-you-won">
+
+              <div class="header-you-won">
+                <span>¡Tu equipo ha ganado!</span>
+              </div>
+
+              <div class="div-score">
+                <label for="score">Puntuación:</label>
+                <input type="text" name="score" id="score">
+                <label for="time">Tiempo</label>
+                <input type="text" name="time" id="time">
+                <button type="button" name="button-start-again"
+                id="button-play-again">Volver a jugar</button>
+              </div>
+
+              <div class="div-score-img">
+                <img src="../img/fondo-you-won.jpg" alt="Ganaste!" id="score-img">
+              </div>
+            </section>
           </div>
 
 

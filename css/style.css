@@ -3,7 +3,7 @@ body
 {
   font-family: 'Abel';
   font-size: 1.2em;
-  color: green;
+  color: #444444;
 }
 
 html,
@@ -87,6 +87,12 @@ button:hover
 header .buttons
 {
   justify-content: flex-end;
+}
+/* Esto lo agregue pero en la pantalla principal no aparecera 
+solo hasta que haya hecho logIn */
+.button-logout
+{
+  display: none;
 }
 
 
