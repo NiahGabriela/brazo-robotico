@@ -88,6 +88,12 @@ header .buttons
 {
   justify-content: flex-end;
 }
+/* Esto lo agregue pero en la pantalla principal no aparecera 
+solo hasta que haya hecho logIn */
+.button-logout
+{
+  display: none;
+}
 
 
 /*----- Estilo Footer -----*/
