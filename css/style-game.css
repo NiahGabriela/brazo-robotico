@@ -97,6 +97,55 @@ section
   height: 100%;
   margin-right: 2px;
 }
+
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Estilo para vista de partida perdida ♦ ♦ ♦ ♦ ♦ ♦ ♦  */
+.cont-you-lose
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  flex-basis: 50%;
+  justify-content: space-around;
+  border: 2px solid #FFFFFF;
+  height: 80%;
+}
+
+.header-you-lose
+{
+  flex-basis: 100%;
+  display: flex;
+  height: 15%;
+
+}
+
+.header-you-lose span
+{
+  flex-basis: 100%;
+  color: #FFFFFF;
+  background-color: #D94546;
+  font-size: 35px;
+  padding: 1px;
+
+}
+.div-you-lose-img img
+{
+  width: 100%;
+  opacity: 1;
+  border-radius: 0;
+
+}
+.div-you-lose-img
+{
+  flex-basis: 45%;
+  height: 80%;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+}
+
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Estilos para vista partida perdida ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+
 /* Media Queries */
 @media only screen and (max-width: 575px)
 {
@@ -114,6 +163,17 @@ section
   {
     font-size: 25px;
   }
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ partida perdida ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+  .div-you-lose-img
+  {
+    display: none;
+  }
+  .cont-you-lose
+  {
+    height: 50%;
+    margin-top: 50px;
+  }
+  /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ fin de estilo partida perdida ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 }
 @media only screen and (min-width: 576px) and (max-width: 767px)
 {
