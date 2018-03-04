@@ -1,0 +1,143 @@
+/* Contenedor Principal */
+.middle
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Contenedores para los items de contenedor principal */
+.instr-recov-pass
+{
+  flex-basis: 50%;
+  margin: 5% 10% 2% 10%;
+  text-align: justify;
+}
+
+.div-form
+{
+  flex-basis: 50%;
+  margin: 2% 10%;
+  display: flex;
+}
+
+form
+{
+  flex-basis: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-for-name
+{
+  flex-basis: 40%;
+}
+.div-for-email
+{
+  flex-basis: 40%;
+}
+
+/* Reglas de diseño para los items de cada subcontenedor */
+.div-form button
+{
+  display: block;
+  align-self: flex-start;
+  margin-top: 10px;
+  width: 70px;
+  font-size: 15px;
+}
+
+label
+{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+input
+{
+  height: 40px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px;
+  box-shadow: 3px 3px 5px #444444;
+}
+
+.buttons
+{
+  display: none;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 575px)
+{
+  .instr-recov-pass
+  {
+    text-align: left;
+  }
+  form
+  {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  input
+  {
+    padding: 2px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+  .div-for-name
+  {
+    margin: 0 10px;
+  }
+
+  .div-for-email
+  {
+    margin: 0 10px;
+  }
+
+  input
+  {
+    padding: 3px;
+    width: 140px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px)
+{
+  form
+  {
+    justify-content: space-evenly;
+  }
+
+  .div-for-name
+  {
+    margin: 0 10px;
+  }
+
+  .div-for-email
+  {
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 992px)
+{
+  form
+  {
+    justify-content: space-evenly;
+  }
+
+  .div-for-name
+  {
+    margin: 0 10px;
+  }
+
+  .div-for-email
+  {
+    margin: 0 10px;
+  }
+}
