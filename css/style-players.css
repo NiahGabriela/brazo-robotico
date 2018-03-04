@@ -1,6 +1,63 @@
+.middle
+{
+  display: flex;
+  flex-wrap: wrap;
+}
 .instr-recov-pass
 {
-  width: 50%;
-  margin: 5% auto;
+  flex-basis: 50%;
+  margin: 5% 10% 2% 10%;
   text-align: justify;
+}
+
+.div-form
+{
+  flex-basis: 50%;
+  margin: 2% 10%;
+  display: flex;
+}
+
+form
+{
+  flex-basis: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-for-name
+{
+  flex-basis: 40%;
+}
+.div-for-email
+{
+  flex-basis: 40%;
+}
+label
+{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+input
+{
+  height: 40px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 5px;
+  box-shadow: 3px 3px 5px #444444;
+}
+.div-form button
+{
+  display: block;
+  align-self: flex-start;
+  margin-top: 10px;
+  width: 70px;
+  font-size: 15px;
+}
+
+.buttons
+{
+  display: none;
 }
