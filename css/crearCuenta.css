@@ -1,4 +1,9 @@
 
+/* Ocultando botones de iniciar sesión y crear cuenta */
+.buttons
+{
+  display: none;
+}
 
 /*----- Reglas generales -----*/
 body
