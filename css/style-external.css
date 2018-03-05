@@ -1,3 +1,4 @@
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Error 404 ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 .buttons
 {
   display: none;
@@ -35,4 +36,48 @@ p a
 footer
 {
   display: none;
+}
+
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Terminos y Condiciones ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+#footer-relative
+{
+  position: static;
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: transparent;
+  border-top: 2px solid #586069;
+  text-align: center;
+}
+.terms span
+{
+  font-size: 1.5em;
+}
+
+.terms span,
+.terms p,
+li
+{
+  text-align: justify;
+}
+.no-heights
+{
+  height: auto;
+  padding-bottom: 0;
+
+}
+.but-logout-block
+{
+  display: block;
+}
+
+@media only screen and (max-width: 575px)
+{
+  #footer-relative a
+  {
+    margin: 0;
+    padding: 0;
+  }
 }
