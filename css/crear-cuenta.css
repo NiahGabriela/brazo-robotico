@@ -372,8 +372,7 @@ a.button
 {
   display: flex;
   margin-top: 20px;
-  margin-bottom: 0px;
-  flex-basis: 75%;
+  flex-basis: 65%;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 20px;
@@ -393,6 +392,15 @@ a.button
   text-align: justify;
 }
 
+.display-1
+{
+    background-color: lightblue;
+    margin-top: 3px;
+    margin-left: 25px;
+    width: 15em;
+    height: 10em;
+    overflow: auto;
+}
 
 
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
