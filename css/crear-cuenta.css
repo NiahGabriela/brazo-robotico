@@ -353,4 +353,25 @@ a.button
 {
   text-align: center;
 }
+
+.admin-view p
+{
+  color: white;
+  margin-right: 3em;
+}
+
+.form select
+{
+  margin-bottom: 43%;
+  margin-top: 5%;
+  width: 50%;
+  align-self: center;
+}
+.cute-line
+{
+  height: 100px;
+  background: black;
+  border-bottom: 1px solid #7290A8;
+
+}
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
