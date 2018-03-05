@@ -1,0 +1,38 @@
+.buttons
+{
+  display: none;
+}
+.middle
+{
+  justify-content: center;
+  align-items: center;
+}
+.cont
+{
+  flex-basis: 80%;
+}
+.div-title,
+.div-p
+{
+  flex-basis: 100%;
+}
+
+.div-title span
+{
+  font-size: 3em;
+}
+
+.div-p p
+{
+  font-size: 2em;
+}
+p a
+{
+  color: #6ADCDD;
+  font-weight: bold;
+}
+
+footer
+{
+  display: none;
+}
