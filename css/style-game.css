@@ -452,4 +452,19 @@ section
   font-size: 1.5em;
   width: 2em;
 }
+/* ++++++++++++estilos para cuando se encuentra la sesion iniciada ++++++++++++++ */
+
+.admin-view input
+{
+  width: 100px;
+}
+
+#play-now
+{
+  background-color: #7290A8;
+  color: white;
+  padding: 5px;
+  font-size: 1.5em;
+  width: 5em;
+}
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
