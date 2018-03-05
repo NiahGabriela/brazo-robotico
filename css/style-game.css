@@ -144,6 +144,39 @@ section
     align-self: flex-start;
   }
 }
+.All-Teams{
+  justify-content: center;
+  padding: 1em;
+  font-family: monospace;
+}
+table caption{
+  font-weight: bolder;
+  font-size: 1.5em;
+
+}
+table {
+  justify-content:center;
+  border-spacing: 10px;
+  background: #7290A8;
+  border-radius: 5px
+
+}
+table span{
+  display: block;
+  text-align: center;
+}
+
+td{
+  text-align: center;
+  border-spacing: 5px;
+}
+th{
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+
+
+}
 @media only screen and (min-width: 768px) and (max-width: 1000px)
 {
   label,
