@@ -367,11 +367,32 @@ a.button
   width: 50%;
   align-self: center;
 }
-.cute-line
-{
-  height: 100px;
-  background: black;
-  border-bottom: 1px solid #7290A8;
 
+.inst
+{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  flex-basis: 75%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 40%;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
 }
+
+.inst p
+{
+  text-align: justify;
+}
+
+
+
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
