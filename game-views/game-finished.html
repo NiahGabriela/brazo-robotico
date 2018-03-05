@@ -1,11 +1,11 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Crear cuenta</title>
+    <title>Perdiste</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="../css/crear-cuenta.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-game.css">
     <link href="https://fonts.googleapis.com/css?family=Headland+One|Londrina+Solid|Monoton|Prosto+One" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon/pestaña.icon">
   </head>
@@ -22,27 +22,27 @@
               <a href="http://www.google.com" target="_blank"><button>Iniciar Sesión</button></a>
               <a href="http://www.google.com" target="_blank"><button>Registro</button></a>
           </div>
+          <div class="button-logout">
+            <a href="http://www.google.com" target="_blank"><button>Cerrar Sesión</button></a>
+          </div>
       </header>
 
           <div class="middle">
-            <div class="form">
-              <h1>Crear cuenta</h1>
-              <form action="#" method="post">
-              <hr>
-              <div class="data">
-                <input type="text" name="email" id="email" placeholder="Correo" required/>
-                <input type="text" name="name" id="name" placeholder="Nombre de usuario" required/>
-                <input type="password" name="pas" id="pass" placeholder="Contraseña" required/>
+            <div class="cont-you-lose">
+              <div class="header-you-lose">
+                <span>Han perdido :(</span>
               </div>
-              <div class="gender">
-                <input type="radio" name="gender" id="female" value="f">
-                <label for="female" class="radio">F</label>
-                <input type="radio" name="gender" id="male" value="m">
-                <label for="male" class="radio" chec>M</label>
-               </div>
-
-               <a href="#" class="button">Crear</a>
-              </form>
+              <div class="div-score">
+                <label for="score">Puntuación:</label>
+                <input type="text" name="score" id="score">
+                <label for="time">Tiempo</label>
+                <input type="text" name="time" id="time">
+                <button type="button" name="button-start-again"
+                id="button-play-again">Intentar de nuevo</button>
+              </div>
+              <div class="div-you-lose-img">
+                <img src="../img/you-lose.png" alt="You Lose">
+              </div>
             </div>
           </div>
 

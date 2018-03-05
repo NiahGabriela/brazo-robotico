@@ -288,12 +288,6 @@ li a {
   }
 } */
 
-/* body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
-pre, form, fieldset, input, textarea, p, blockquote, th, td
-{
-  padding:0;
-  margin:0;
-  } */
 
 h1
 {
@@ -313,7 +307,7 @@ h1
   flex-basis: 25%;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 60%;
+  height: 68%;
   -webkit-border-radius: 8px/7px;
   -moz-border-radius: 8px/7px;
   border-radius: 8px/7px;
@@ -330,21 +324,6 @@ form
   margin: 0px 65px;
 }
 
-/* input[type=text],input[type=password]{
-  width: 200px;
-  height: 39px;
-  -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
-  -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px;
-  border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
-  background-color: #fff;
-  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
-  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
-  box-shadow: 1px 2px 5px rgba(0,0,0,.09);
-  border: solid 1px #cbc9c9;
-  margin-left: -5px;
-  margin-top: 13px;
-  padding-left: 10px;
-} */
 
 a.button
 {
@@ -360,3 +339,68 @@ a.button
   -moz-box-shadow: 0 3px rgba(58,87,175,.75);
   box-shadow: 0 3px rgba(58,87,175,.75);
 }
+
+/* ► ► ► ► ► ► ► ► ► ► */
+#pollo-ok
+{
+  border-radius: 2px;
+  width: 5em;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.form p
+{
+  text-align: center;
+}
+
+.admin-view p
+{
+  color: white;
+  margin-right: 3em;
+}
+
+.form select
+{
+  margin-bottom: 43%;
+  margin-top: 5%;
+  width: 50%;
+  align-self: center;
+}
+
+.inst
+{
+  display: flex;
+  margin-top: 20px;
+  flex-basis: 65%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 40%;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
+}
+
+.inst p
+{
+  text-align: justify;
+}
+
+.display-1
+{
+    background-color: lightblue;
+    margin-top: 3px;
+    margin-left: 25px;
+    width: 15em;
+    height: 10em;
+    overflow: auto;
+}
+
+
+/* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */

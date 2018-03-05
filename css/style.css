@@ -88,7 +88,7 @@ header .buttons
 {
   justify-content: flex-end;
 }
-/* Esto lo agregue pero en la pantalla principal no aparecera 
+/* Esto lo agregue pero en la pantalla principal no aparecera
 solo hasta que haya hecho logIn */
 .button-logout
 {
@@ -232,6 +232,7 @@ li a {
   footer a
   {
     padding: 2% 0;
+    margin: 0;
   }
 
   .buttons
