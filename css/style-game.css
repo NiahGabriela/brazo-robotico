@@ -193,6 +193,7 @@ section
   height: 180px;
   background-color: #A8E8CD;
   border-radius: 10px;
+  border-collapse: collapse;
   align-items: flex-end;
 }
 #button-start
