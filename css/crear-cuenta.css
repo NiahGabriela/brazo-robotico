@@ -147,6 +147,41 @@ footer a
   60%, #fff),linear-gradient(70deg, #dbedff 32%, #ebfff0);
 }
 
+/*
+########INICIO SOLICITUD-log-In############ */
+.solicitud
+{
+  display: flex;
+  margin-top: 20px;
+  flex-basis: 65%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: 40%;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
+}
+
+.solicitud p
+{
+  text-align: justify;
+}
+
+
+
+/* #######FIN SOlicitud-log-in####### */
+
+
+
+
+
+
 /* Responsive Menu
 .show-menu {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
