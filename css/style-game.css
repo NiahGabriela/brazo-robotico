@@ -27,7 +27,7 @@ section
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 80%;
   margin-top: 15px;
   border: 2px solid #FFFFFF;
@@ -69,7 +69,7 @@ section
 
 #button-play-again
 {
-  margin-top: 45%;
+  margin-top: 20%;
   font-weight: bold;
   font-size: 20px;
 }
@@ -93,7 +93,7 @@ section
 {
   border-radius: 0;
   opacity: 1;
-  width: 120%;
+  width: 100%;
   height: 100%;
   margin-right: 2px;
 }
@@ -129,7 +129,7 @@ section
 }
 .div-you-lose-img img
 {
-  width: 100%;
+  width: 80%;
   opacity: 1;
   border-radius: 0;
 
@@ -261,12 +261,7 @@ video
   {
     display: none;
   }
-  section
-  {
-    flex-basis: 50%;
-    margin-top: 50px;
-    height: 50%;
-  }
+
   .header-you-won span
   {
     font-size: 25px;
@@ -275,11 +270,6 @@ video
   .div-you-lose-img
   {
     display: none;
-  }
-  .cont-you-lose
-  {
-    height: 50%;
-    margin-top: 50px;
   }
   /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ fin de estilo partida perdida ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
   /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Estilo esperando jugadores ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
@@ -320,7 +310,6 @@ video
     .cont-video
     {
       flex-basis: 80%;
-      height: 60%;
     }
     .cont-start-game-button .button-start
     {
@@ -340,16 +329,13 @@ video
   #button-play-again
   {
     width: 80%;
+    font-size: 18px;
   }
 
-  #button-play-again
-  {
-    margin-top: 28%;
-  }
   section
   {
     justify-content: center;
-    height: 70%
+    height: 80%
   }
   #score-img
   {
@@ -386,6 +372,7 @@ video
   #button-play-again
   {
     width: 90%;
+    font-size: 18px;
   }
   section
   {
@@ -400,12 +387,7 @@ video
 }
 @media only screen and (min-width: 1001px)
 {
-  #score-img
-  {
-    width: 110%;
-    height: 100%;
-    align-self: flex-start;
-  }
+
 }
 
 
