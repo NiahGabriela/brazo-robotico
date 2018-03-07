@@ -73,11 +73,31 @@ li
   display: block;
 }
 
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Ayuda ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+.cont-help span,
+.cont-help p
+{
+  text-align: justify;
+}
+
+.cont-help span
+{
+  font-weight: bold;
+}
+.button-help
+{
+  display: none;
+}
+.buttons-help
+{
+  display: block;
+}
 @media only screen and (max-width: 575px)
 {
-  #footer-relative a
+  /* Lo comente porque ya esta la regla en style.css */
+  /* #footer-relative a
   {
     margin: 0;
     padding: 0;
-  }
+  } */
 }

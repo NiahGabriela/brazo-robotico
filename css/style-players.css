@@ -66,7 +66,74 @@ input
 {
   display: none;
 }
-
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Vista Enviar correo de invitación ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+.buttons-view-send-email
+{
+  display: none;
+}
+.button-logout-view-send-email
+{
+  display: block;
+}
+.middle-send-email
+{
+  justify-content: center;
+}
+.cont-send-inv
+{
+  flex-basis: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#img-invitation
+{
+  width: 50%;
+  opacity: 1;
+  border-radius: 0;
+  margin-top: 10%;
+}
+.title-send-inv
+{
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont-emails
+{
+  flex-basis: 40%;
+  margin-top: 3%;
+}
+.title-send-inv span
+{
+  font-size: 2em;
+  text-align: center;
+}
+.cont-emails span
+{
+  font-size: 1.5em;
+  text-align: center;
+}
+.list-of-emails
+{
+  margin-top: 2%;
+}
+.list-of-emails input
+{
+  width: 100%;
+  height: 180px;
+  background-color: #F1F3F4;
+  border-radius: 10px;
+  align-items: flex-end;
+}
+#button-send-email
+{
+  margin-top: 10px;
+  width: 50%;
+  font-size: 20px;
+}
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Vista Enviar correo de invitación ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 /* Media queries */
 
 @media only screen and (max-width: 575px)
@@ -85,6 +152,39 @@ input
   {
     padding: 2px;
   }
+
+  /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Vista Enviar correo de invitación ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+  .cont-send-inv
+  {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .title-send-inv span
+  {
+    font-size: 1.5em;
+  }
+  .cont-emails span
+  {
+    font-size: 1.2em;
+  }
+  .list-of-emails
+  {
+    margin-top: 0;
+  }
+  #button-send-email
+  {
+    margin-top: 10px;
+    width: 60%;
+    font-size: 18px;
+  }
+  #img-invitation
+  {
+    width: 40%;
+    opacity: 1;
+    border-radius: 0;
+    margin-top: 10%;
+  }
+  /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Vista Enviar correo de invitación ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px)
@@ -104,6 +204,22 @@ input
     padding: 3px;
     width: 140px;
   }
+
+  /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Vista Enviar correo de invitación ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+  #button-start
+  {
+    margin-top: 10px;
+    width: 60%;
+    font-size: 18px;
+  }
+  #img-waiting
+  {
+    width: 70%;
+    opacity: 1;
+    border-radius: 0;
+    margin-top: 10%;
+  }
+  /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Vista Enviar correo de invitación ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1000px)
