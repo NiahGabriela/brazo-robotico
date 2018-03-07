@@ -27,7 +27,7 @@ section
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 80%;
   margin-top: 15px;
   border: 2px solid #FFFFFF;
@@ -93,7 +93,7 @@ section
 {
   border-radius: 0;
   opacity: 1;
-  width: 120%;
+  width: 100%;
   height: 100%;
   margin-right: 2px;
 }
@@ -261,12 +261,7 @@ video
   {
     display: none;
   }
-  section
-  {
-    flex-basis: 50%;
-    margin-top: 50px;
-    height: 50%;
-  }
+
   .header-you-won span
   {
     font-size: 25px;
@@ -341,7 +336,7 @@ video
   section
   {
     justify-content: center;
-    height: 70%
+    height: 80%
   }
   #score-img
   {
@@ -393,10 +388,5 @@ video
 }
 @media only screen and (min-width: 1001px)
 {
-  #score-img
-  {
-    width: 110%;
-    height: 100%;
-    align-self: flex-start;
-  }
+  
 }
