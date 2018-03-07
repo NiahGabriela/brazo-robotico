@@ -409,4 +409,47 @@ section
   margin-bottom: 20px;
 }
 
+
+/* Inicio vista de me gusta en facebook */
+
+.me-gusta
+{
+  flex-basis: 30%;
+  display: flex;
+  height: 70%;
+  /* flex-direction: column; */
+}
+
+.fb-like
+{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.fb-like span
+{
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#logo-brazo
+{
+  border-radius: 50%;
+  width: 6em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#ir-fb
+{
+  background-color: #7290A8;
+  color: white;
+  padding: 5px;
+  font-size: 1.5em;
+  width: 2em;
+}
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
