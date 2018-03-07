@@ -276,11 +276,6 @@ video
   {
     display: none;
   }
-  .cont-you-lose
-  {
-    height: 50%;
-    margin-top: 50px;
-  }
   /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ fin de estilo partida perdida ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
   /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Estilo esperando jugadores ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
   .wfor-players
@@ -340,12 +335,9 @@ video
   #button-play-again
   {
     width: 80%;
+    font-size: 18px;
   }
 
-  #button-play-again
-  {
-    margin-top: 28%;
-  }
   section
   {
     justify-content: center;
@@ -386,6 +378,7 @@ video
   #button-play-again
   {
     width: 90%;
+    font-size: 18px;
   }
   section
   {
