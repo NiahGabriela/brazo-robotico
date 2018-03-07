@@ -202,6 +202,57 @@ section
   font-size: 20px;
 }
 /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Estilo esperando jugadores ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Video como jugar ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+.middle-video
+{
+  justify-content: center;
+  align-items: center;
+}
+.cont-video
+{
+  flex-basis: 60%;
+  height: 80%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.video
+{
+  flex-basis: 100%;
+  height: 80%;
+  display: flex;
+}
+.cont-start-game-button
+{
+  flex-basis: 40%;
+  display: flex;
+}
+video
+{
+  flex-basis: 100%;
+}
+.cont-start-game-button .button-start
+{
+  flex-basis: 100%;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.button-start:hover
+{
+  background-color: #53ae85;
+}
+.buttons-video
+{
+  display: block;
+}
+.button-logout-video
+{
+  display: none;
+}
+/* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Video como jugar ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 /* Media Queries */
 @media only screen and (max-width: 575px)
 {
@@ -260,6 +311,21 @@ section
     margin: 0;
   }
     /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Estilo esperando jugadores ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+    /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Video como jugar ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+    .video
+    {
+      height: 75%;
+    }
+    .cont-video
+    {
+      flex-basis: 80%;
+      height: 60%;
+    }
+    .cont-start-game-button .button-start
+    {
+      font-size: 20px;
+    }
+    /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Video como jugar ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px)
@@ -305,6 +371,12 @@ section
     margin-top: 10%;
   }
     /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Estilo esperando jugadores ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+    /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Video como jugar ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
+  .cont-start-game-button .button-start
+  {
+    font-size: 20px;
+  }
+  /* ♦ ♦ ♦ ♦ ♦ ♦ ♦ Fin Video como jugar ♦ ♦ ♦ ♦ ♦ ♦ ♦ */
 }
 @media only screen and (min-width: 768px) and (max-width: 1000px)
 {
