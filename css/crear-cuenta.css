@@ -404,3 +404,47 @@ a.button
 
 
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
+
+/* ############## INICIO A INGRESAR A CUENTA ########################## */
+
+a.button-log-in
+{
+  color: white;
+  padding: 7px 15px 0px 10px;
+  display: inline-block;
+  margin-left: 63%;
+  margin-bottom: 0;
+  font-size: .7em;
+  width: 20%;
+  height: 29px;
+  border-radius: 5px;
+  background-color: #7290A8;
+  -webkit-box-shadow: 0 3px rgba(58,87,175,.75);
+  -moz-box-shadow: 0 3px rgba(58,87,175,.75);
+  box-shadow: 0 3px rgba(58,87,175,.75);
+}
+
+.data-log-in *
+{
+  margin-bottom: 10px;
+}
+.form-log-in
+{
+  display: flex;
+  margin: 20px;
+  flex-basis: 25%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 68%;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
+}
+
+
+/* ############## FIN A INGRESAR A CUENTA ########################## */
