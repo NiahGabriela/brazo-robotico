@@ -73,6 +73,21 @@ li
   display: block;
 }
 
+/* ########## INICIO ABOUT US ####### */
+.description span
+{
+  font-size: 1.5em;
+}
+
+.descriptionspan,
+.description p,
+li
+{
+  text-align: justify;
+}
+
+/* ########## FIN ABOUT US ####### */
+
 @media only screen and (max-width: 575px)
 {
   #footer-relative a
