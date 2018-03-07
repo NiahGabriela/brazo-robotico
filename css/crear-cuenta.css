@@ -147,6 +147,54 @@ footer a
   60%, #fff),linear-gradient(70deg, #dbedff 32%, #ebfff0);
 }
 
+/* ############EDIT PORFILE####### */
+
+/* a.button-save
+{
+  color: white;
+  padding: 6px 15px 0px 10px;
+  display: inline-block;
+  margin-left: 63%;
+  margin-bottom: 0;
+  width: 20%; height: 27px;
+  border-radius: 5px;
+  background-color: #7290A8;
+  -webkit-box-shadow: 0 3px rgba(58,87,175,.75);
+  -moz-box-shadow: 0 3px rgba(58,87,175,.75);
+  box-shadow: 0 3px rgba(58,87,175,.75);
+} */
+button-save
+{
+  font-size: .5em;
+  background-color: #F5F6FE;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.2);
+  box-shadow: inset 1px 0 4px black;
+}
+
+.form-edit
+{
+  display: flex;
+  margin: 20px;
+  flex-basis: 50%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 68%;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
+}
+
+
+/* ############EDIT PORFILE ####### */
+
 /*
 ########INICIO SOLICITUD-log-In############ */
 .solicitud
