@@ -242,24 +242,6 @@ li a {
     flex-direction: column;
   }
 } */
-/* @media only screen and (min-width: 576px) and (max-width: 767px)
-{
-
-} */
-/* Medium ≥768px	 */
-@media only screen and (min-width: 768px) and (max-width: 1000px)
-{
-  /* .middle
-  {
-    padding-bottom:20%;
-  } */
-
-}
-/* Large ≥992px	 */
-@media only screen and (min-width: 992px)
-{
-
-}
 
 
 /* Extra large ≥1200px
@@ -361,15 +343,20 @@ a.button
   align-self: center;
 }
 
+  /* ************Instrucciones************* */
+.middle-intructions
+{
+  align-items: center;
+}
 .inst
 {
-  display: flex;
-  margin-top: 20px;
+    /* display: flex; */
+  /* margin-top: 20px; */
   flex-basis: 65%;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 20px;
-  height: 40%;
+  height: 55%;
   -webkit-border-radius: 8px/7px;
   -moz-border-radius: 8px/7px;
   border-radius: 8px/7px;
@@ -384,7 +371,7 @@ a.button
 {
   text-align: justify;
 }
-
+  /* ************ Fin Instrucciones************* */
 .display-1
 {
     background-color: lightblue;
@@ -452,6 +439,52 @@ a.button
     display: inline;
     margin-left: 0;
   }
+
+  /* ************Instrucciones************* */
+  .middle-intructions
+  {
+    height: 90%;
+  }
+  .inst
+  {
+    height: 65%;
+  }
+  .inst p
+  {
+    font-size: 18px;
+  }
+
+  #button-inst
+  {
+    margin-left: 60%;
+  }
+    /* ************ Fin Instrucciones************* */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+    /* ************Instrucciones************* */
+  .inst
+  {
+    height: 80%;
+  }
+    /* ************ Fin Instrucciones************* */
+}
+/* Medium ≥768px	 */
+@media only screen and (min-width: 768px) and (max-width: 1000px)
+{
+    /* ************Instrucciones************* */
+  .inst
+  {
+    height: 70%;
+  }
+    /* ************ Fin Instrucciones************* */
+}
+
+/* Large ≥992px	 */
+@media only screen and (min-width: 992px)
+{
+
 }
 
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
