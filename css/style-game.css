@@ -310,7 +310,6 @@ video
     .cont-video
     {
       flex-basis: 80%;
-      height: 60%;
     }
     .cont-start-game-button .button-start
     {
@@ -388,5 +387,5 @@ video
 }
 @media only screen and (min-width: 1001px)
 {
-  
+
 }
