@@ -137,12 +137,58 @@ form
   margin: 2px 10%;
 }
 
+#boton-chat
+{
+  display: none;
+}
+
 @media only screen and (max-width: 575px)
 {
+  .cont-play
+  {
+    flex-basis: 100%;
+  }
+  .cont-chat
+  {
+    width: 70%;
+    height: 72%;
+    margin: 0;
+    position: absolute;
+  }
 
+  #boton-chat
+  {
+    align-self: flex-start;
+    display: block;
+    border-radius: 0%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+  }
 }
 
  @media only screen and (min-width: 576px) and (max-width: 767px)
  {
+   .cont-play
+   {
+     flex-basis: 100%;
+   }
+   .cont-chat
+   {
+     width: 70%;
+     height: 72%;
+     margin: 0;
+     position: absolute;
+   }
 
+   #boton-chat
+   {
+     align-self: flex-start;
+     display: block;
+     border-radius: 0%;
+     width: 30px;
+     height: 30px;
+     padding: 10px;
+   }
  }
+ /* fin */
