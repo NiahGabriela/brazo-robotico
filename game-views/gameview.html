@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Juego en Curso</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-gameview.css">
+    <link href="https://fonts.googleapis.com/css?family=Headland+One|Londrina+Solid|Monoton|Prosto+One" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon/pestaña.icon">
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="logo">
+            <a href="index.html">
+            <img id="logo" src="../img/logo.png" alt="Logo"/>
+            </a>
+            <a href="index.html">Brazo Robótico</a>
+        </div>
+          <div class="buttons">
+              <a href="http://www.google.com" target="_blank"><button>Iniciar Sesión</button></a>
+              <a href="http://www.google.com" target="_blank"><button>Registro</button></a>
+          </div>
+          <div class="button-logout">
+            <a href="http://www.google.com" target="_blank"><button>Cerrar Sesión</button></a>
+          </div>
+      </header>
+
+          <div class="middle">
+            <img id="boton-chat" src="../img/chat-menu.png">
+            <div class="cont-gnr-game">
+            <div class="cont-play">
+              <div class="cont-game">
+
+
+                </div>
+                <div class="buttons-game">
+                  <label for="art" id="num-art">Articulación No.</label>
+                  <input type="text" name="art"id="art">
+                  <button type="button" name="button-mas">+</button>
+                  <button type="button" name="button-menos">-</button>
+                </div>
+
+              </div>
+              <div class="cont-chat">
+
+                  <div id="title-chat">
+                      <p class="welcome">Chat</p>
+                  </div>
+
+                  <div id="chatbox"></div>
+
+                  <div class="emojis">
+                    <img src="../img/emojis.jpeg" alt="emojis">
+                  </div>
+
+                  <div class="input">
+                    <form name="message" action="post">
+                        <input name="usermsg" type="text" id="usermsg" size="63" />
+                        <button type="submit" name="submitmsg">Enviar</button>
+                        <!-- <input name="submitmsg" type="submit"  id="submitmsg" value="Send" /> -->
+                    </form>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+
+      <footer>
+          <a href="#">Sobre nosotros</a>
+          <a href="#">Ayuda</a>
+          <a href="#">Contacto</a>
+          <a href="#">Mis partidas</a>
+          <a href="#">Blog</a>
+          <a href="#">Cómo jugar</a>
+          <a href="#">Terminos y Condiciones</a>
+          <a href="#">Mi perfil</a>
+          <a href="#">Invitar amigos</a>
+      </footer>
+    </div>
+
+    <!--**************************** enlace a js *********************-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../js/resp-menu.js"></script>
+  </body>
+</html>
