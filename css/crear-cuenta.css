@@ -469,6 +469,10 @@ a.button
     height: 80%;
   }
     /* ************ Fin Instrucciones************* */
+  .middle-like-fb
+  {
+    align-items: center;
+  }
 }
 /* Medium ≥768px	 */
 @media only screen and (min-width: 768px) and (max-width: 1000px)
@@ -479,12 +483,19 @@ a.button
     height: 70%;
   }
     /* ************ Fin Instrucciones************* */
+  .middle-like-fb
+  {
+    align-items: center;
+  }
 }
 
 /* Large ≥992px	 */
 @media only screen and (min-width: 992px)
 {
-
+  .middle-like-fb
+  {
+    align-items: center;
+  }
 }
 
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
