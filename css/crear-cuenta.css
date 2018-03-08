@@ -302,6 +302,7 @@ form
 
 a.button
 {
+  text-align: center;
   color: white;
   padding: 6px 15px 0px 10px;
   display: inline-block;
@@ -321,7 +322,7 @@ a.button
   border-radius: 2px;
   width: 5em;
   align-self: center;
-  margin-bottom: 30px;
+  margin-bottom: 5%;
 }
 
 .form p
@@ -381,6 +382,40 @@ a.button
     height: 10em;
     overflow: auto;
 }
+
+/* **********Ok-pass-reset********** */
+.middle-ok-pass-reset
+{
+  align-items: center;
+}
+.form-ok-pass-reset
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 70%;
+  height: 80%;
+  margin: 0;
+  padding: 5px;
+
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
+}
+
+.form-ok-pass-reset p
+{
+  text-align: justify;
+}
+
+/* **********Ok-pass-reset********** */
 
 @media only screen and (max-width: 575px)
 {
@@ -459,6 +494,16 @@ a.button
     margin-left: 60%;
   }
     /* ************ Fin Instrucciones************* */
+
+    .form-ok-pass-reset p
+    {
+      font-size: 18px;
+    }
+
+    .form-ok-pass-reset h1
+    {
+      font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px)
