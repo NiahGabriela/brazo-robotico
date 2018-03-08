@@ -569,4 +569,10 @@ a.button
   margin-bottom: 1em;
 }
 
+.log-in-box #forgetfull
+{
+  font-style: italic;
+  font-size: .7em;
+  text-align: right;
+}
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
