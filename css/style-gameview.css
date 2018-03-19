@@ -1,11 +1,88 @@
-.buttons
+html,
+body
 {
-  display: none;
+  height: 100%;
 }
+
+.main-container
+{
+  display: flex;
+  flex-basis: 100%;
+  flex-flow: row wrap;
+  height: 100%;
+}
+
+/*R U L E S  F O R  H E A D E R*/
+header
+{
+  padding: 1.1rem;
+  background-color: #4E6E85;
+  flex-basis: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header a
+{
+  color: #F3F1F2;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+
+#img-logo
+{
+  border-radius: 50%;
+  opacity: 0.8;
+  width: 25%;
+  margin: 0;
+}
+
+#name
+{
+  /* display: none; */
+}
+
 .button-logout
 {
-  display: block;
+  flex-basis: 15%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
 }
+
+#but-log-out
+{
+  display: flex;
+  justify-content: center;
+  flex-basis: 80%;
+  align-items: center;
+  border: 1px solid #F3F1F2;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  height: 60%;
+  padding: 8px 16px;
+}
+
+button:hover
+{
+  background: rgba(0,0,0,0);
+  color: white;
+  box-shadow: inset 0 0 6px 3px grey;
+}
+
+header .buttons
+{
+  justify-content: flex-end;
+}
+
+
+/*R U L E S  F O R  M A I N  C O N T E N T*/
 .middle
 {
   justify-content: center;
@@ -17,7 +94,7 @@
 
 .cont-gnr-game
 {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   flex-basis: 90%;
