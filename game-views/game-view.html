@@ -29,13 +29,35 @@
 
         <div class="cont-game">
         </div>
-        
+
         <div class="buttons-game">
           <label for="art" id="num-art">Articulación No.</label>
-          <input type="text" name="art"id="art">
-          <button type="button" name="button-mas">+</button>
-          <button type="button" name="button-menos">-</button>
+          <div id="art">3</div>
+          <button type="button" name="button-left" id="button-left">Left</button>
+          <button type="button" name="button-right" id="button-right">Right</button>
         </div>
+
+      </div>
+
+      <div class="cont-chat">
+
+          <div id="title-chat">
+              <p class="welcome">Chat</p>
+          </div>
+
+          <div id="chatbox"></div>
+
+          <div class="emojis">
+            <img src="../img/emojis.jpeg" alt="emojis">
+          </div>
+
+          <div class="input">
+            <form name="message" action="post">
+                <input name="usermsg" type="text" id="usermsg" size="63" />
+                <button type="submit" name="submitmsg">Enviar</button>
+                <!-- <input name="submitmsg" type="submit"  id="submitmsg" value="Send" /> -->
+            </form>
+          </div>
 
       </div>
 
