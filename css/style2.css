@@ -1,0 +1,33 @@
+/*Contenedores index*/
+html,
+body
+{
+  height: 100%;
+}
+.main-cube-cont
+{
+  display: flex;
+  height: 90%;
+  border: 3px solid purple;
+  justify-content: space-around;
+  align-items: center;
+}
+.cube-cont
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 180px;
+  height: 180px;
+  padding: 5px;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.cube-cont:hover
+{
+  transform: scale(1.15);
+}
