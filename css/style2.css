@@ -67,6 +67,7 @@ footer a
   margin-top: 3px;
 }
 
+.middle-admin,
 .main_cont
 {
   display: flex;
@@ -78,6 +79,7 @@ footer a
   min-height: 90%;
 }
 
+.cont-sign-adm,
 .cont-signin,
 .cont-signup
 {
@@ -92,6 +94,7 @@ footer a
   padding: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 10px 15px 55px gray;
 }
 
 #e-mail,
@@ -197,6 +200,7 @@ footer a
 
 @media only screen and (min-width: 768px) and (max-width: 992px)
 {
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
@@ -229,6 +233,7 @@ footer a
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
 {
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
@@ -271,6 +276,7 @@ footer a
 
 @media only screen and (min-width: 350px) and (max-width: 575px)
 {
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
@@ -308,6 +314,7 @@ footer a
 
 @media only screen and (max-width: 350px)
 {
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
