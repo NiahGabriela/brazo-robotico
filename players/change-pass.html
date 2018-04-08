@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Instrucciones</title>
+    <title>Cambiar contraseña</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -14,24 +13,27 @@
     <div class="main-container">
       <header>
         <div class="logo">
-            <a href="../index.html">
+            <a href="index.html">
             <img id="logo" src="../img/logo.png" alt="Logo"/>
             </a>
             <a href="../index.html">Brazo Robótico</a>
         </div>
           <div class="buttons">
             <a href="log-in.html" target="_blank"><button>Iniciar Sesión</button></a>
-            <a href="crear-cuenta.html" target="_blank"><button>Registro</button></a>
+
           </div>
+
       </header>
 
-          <div class="middle middle-intructions">
-            <div class="inst">
-              <h1>Instrucciones de juego</h1>
-              <p>Para jugar "brazo robótico" es necesario contar con 3 jugadores, a cada jugador se le asigna una articulación
-              del brazo para manipular, la articulación se mueve con ayuda de los botones + y -. El objetivo del juego es
-              alcanzar la pelota que se muestra en el área de juego con ayuda de sus compañeros de equipo.</p>
-               <a href="../game-views/waiting-for-players.html" class="button" id="button-inst">Siguiente</a>
+          <div class="middle">
+            <div class="log-in-box">
+              <form action="#" method="post">
+                <span>Cambiar contraseña</span>
+              <hr>
+                <input type="password" name="password" id="email" placeholder="Contraseña" required/>
+                <input type="password" name="password-confirmation" id="pass" placeholder="Repetir Contraseña" required/>
+               <a href="pass-has-changed.html" class="button">Listo</a>
+              </form>
             </div>
           </div>
 
