@@ -349,3 +349,8 @@ footer a
     width: 400px;
   }
 }
+
+.error
+{
+  border: 20px solid red;
+}
