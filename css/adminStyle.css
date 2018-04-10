@@ -1,0 +1,12 @@
+.error
+{
+    border: 2px solid SandyBrown;
+    border-radius: 5px;
+    background-color: LightSalmon;
+}
+
+#errorPass
+{
+  color: red;
+  visibility: hidden;
+}
