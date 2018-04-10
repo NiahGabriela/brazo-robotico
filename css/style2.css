@@ -148,7 +148,6 @@ footer a
 {
   display: flex;
   height: 90%;
-  border: 3px solid purple;
   justify-content: space-around;
   align-items: center;
 }
@@ -166,6 +165,7 @@ footer a
   text-decoration: none;
   color: #0288D1;
   transition: all 1s;
+  font-size: 13px;
 }
 
 .cube-cont:hover
@@ -178,19 +178,19 @@ footer a
 {
   .cube-cont
   {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
   }
 
   .cube-cont:hover
   {
-    transform: scale(1.11);
+    transform: scale(1.12);
   }
 
   .cube-cont img
   {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
   }
 
 }
@@ -225,6 +225,23 @@ footer a
     justify-content: center;
     align-items: center;
   }
+
+  .cube-cont
+  {
+    width: 140px;
+    height: 140px;
+  }
+
+  .cube-cont:hover
+  {
+    transform: scale(1.11);
+  }
+
+  .cube-cont img
+  {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
@@ -254,18 +271,26 @@ footer a
   .main-cube-cont
   {
     flex-wrap: wrap;
-    justify-content: center;
+    height: 80%;
+    /* justify-content: space-around;
+    align-items: center; */
   }
   .cube-cont
   {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     margin-right: 20px;
   }
 
   .cube-cont:first-of-type
   {
     margin-left: 10px;
+  }
+
+  .cube-cont img
+  {
+    width: 110px;
+    height: 110px;
   }
 }
 
