@@ -1,0 +1,10 @@
+.maint-cont-game
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEEEEE;
+  background-size: cover;
+  min-height: 90%;
+}
