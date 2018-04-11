@@ -2,8 +2,14 @@
 let passAdmin = document.getElementById('password');
 var notTilCorrect = document.getElementById('signin');
 
-passAdmin.addEventListener('blur',checkPass);
-notTilCorrect.addEventListener('click',controlButton);
+if(passAdmin)
+{
+  passAdmin.addEventListener('blur',checkPass);
+}
+if(notTilCorrect)
+{
+  notTilCorrect.addEventListener('click',controlButton);
+}
 
 function controlButton (event)
 {

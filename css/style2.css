@@ -147,7 +147,7 @@ footer a
   color: #00B0FF;
 }
 
-.main-cube-cont
+.main-cube-cont,
 {
   display: flex;
   height: 90%;
@@ -184,6 +184,11 @@ footer a
     margin-top: 3px;
 
   }
+  #resp
+  {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px)
@@ -204,11 +209,21 @@ footer a
     width: 110px;
     height: 110px;
   }
+  .unsub-user,
+  .stats-opt h3
+  {
+    margin: 20px;
+  }
 
   #errorPass
   {
     margin-left: 5%;
     margin-top: 3px;
+  }
+  #resp
+  {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
 }
@@ -238,7 +253,8 @@ footer a
     width: 500px;
   }
 
-  .main-cube-cont
+  .main-cube-cont,
+  .cont-opt
   {
     flex-wrap: wrap;
     justify-content: center;
@@ -271,7 +287,8 @@ footer a
     width: 300px;
   }
 
-  .main-cube-cont
+  .main-cube-cont,
+  .cont-opt
   {
     flex-wrap: wrap;
     justify-content: center;
