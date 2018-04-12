@@ -19,6 +19,53 @@
   align-items: center;
 }
 
+.cont-block
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #0288D1;
+}
+
+.cont-block-max
+{
+  display: flex;
+  height: 90%;
+  flex-direction: column;
+}
+
+.stats-opt
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid CadetBlue;
+  border-radius: 5px;
+  width: 90%;
+  height: 65%;
+  padding: 20px;
+  text-decoration: none;
+  color: #0288D1;
+  transition: all 1s;
+  box-shadow: 10px 15px 55px grey;
+}
+
+.block-user
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid CadetBlue;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 3%;
+  height: 65%;
+  padding: 20px;
+  text-decoration: none;
+  color: #0288D1;
+  box-shadow: 6px 9px 9px grey;
+}
+
 .unsub-user,
 .stats-opt
 {
