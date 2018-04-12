@@ -27,9 +27,314 @@
 }
 .buttons-game
 {
-  border: 1px solid black;
+  /* border-bottom: 1px solid black; */
   padding: 5px;
   display: flex;
+  justify-content: space-between;
   width: 790px;
+  height: 70px;
+}
+
+.cont-art,
+.cont-buttons
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  /* border: 1px solid black; */
+}
+
+.cont-art
+{
+  font-size: 30px;
+  border-bottom: 5px double #fa4094;
+}
+
+#button-left,
+#button-right
+{
+  width: 100px;
   height: 50px;
+  font-size: 40px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+#button-left
+{
+  background-color: #FA4094;
+  border-color: #FA4094;
+}
+
+#button-right
+{
+  background-color: #3EFDD4;
+  border-color: #3EFDD4;
+}
+
+/* load-game start */
+.main-load-cube
+{
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.load-cube
+{
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(130deg, #1bbcb2, #37b9e9);
+  margin: 30px;
+}
+
+.load-player
+{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  background-color: #F5F5F5;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.load-player p
+{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.loader-cube
+{
+  border-radius: 10px;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  /* border: 2px solid black; */
+}
+
+.loader1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-top: 3px solid #FF3333;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2.5s linear infinite;
+}
+
+.loader2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-top: 3px solid #1BBCB2;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  animation: spin 2.5s linear infinite;
+}
+
+.loader3
+{
+  border: 3px solid white;
+  border-top: 3px solid #37B9E9;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin
+{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+/* load-game end */
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+  /* load-game start */
+  .loader1
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+  .loader2
+  {
+    width: 85px;
+    height: 85px;
+  }
+
+  .loader3
+  {
+    width: 80px;
+    height: 80px;
+  }
+  /* load-game end */
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px)
+{
+  /* load-game start */
+  .main-load-cube
+  {
+    flex-wrap: wrap;
+  }
+
+  .load-cube
+  {
+    width: 85%;
+  }
+
+  .load-player
+  {
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .loader-cube
+  {
+    width: 50%;
+  }
+
+  .loader1
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+  .loader2
+  {
+    width: 85px;
+    height: 85px;
+  }
+
+  .loader3
+  {
+    width: 80px;
+    height: 80px;
+  }
+  /* load-game end */
+}
+
+@media only screen and (min-width: 350px) and (max-width: 575px)
+{
+  /* load-game start */
+  .main-load-cube
+  {
+    flex-wrap: wrap;
+  }
+
+  .load-cube
+  {
+    width: 85%;
+  }
+
+  .load-player
+  {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .load-player p
+  {
+    /* editar */
+    font-size: 20px;
+  }
+
+  .loader-cube
+  {
+    width: 50%;
+  }
+
+  .loader1
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+  .loader2
+  {
+    width: 85px;
+    height: 85px;
+  }
+
+  .loader3
+  {
+    width: 80px;
+    height: 80px;
+  }
+  /* load-game end */
+}
+
+@media only screen and (max-width: 350px)
+{
+  /* load-game start */
+  .main-load-cube
+  {
+    flex-wrap: wrap;
+  }
+
+  .load-cube
+  {
+    width: 85%;
+  }
+
+  .load-player
+  {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .load-player p
+  {
+    /* editar */
+    font-size: 20px;
+  }
+
+  .loader-cube
+  {
+    width: 50%;
+  }
+
+  .loader1
+  {
+    width: 70px;
+    height: 70px;
+  }
+
+  .loader2
+  {
+    width: 65px;
+    height: 65px;
+  }
+
+  .loader3
+  {
+    width: 60px;
+    height: 60px;
+  }
+  /* load-game end */
 }
