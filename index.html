@@ -1,58 +1,65 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Sesión iniciada</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style2.css">
+  </head>
+  <body>
+    <header>
 
-      <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/style-game.css">
-      <link href="https://fonts.googleapis.com/css?family=Headland+One|Londrina+Solid|Monoton|Prosto+One" rel="stylesheet">
-      <link rel="shortcut icon" href="favicon/pestaña.icon">
+      <a href="index.html">
+        <img src="img/logo.png" id="logo_img" alt="Logo">
+        <p>Brazo Robótico</p>
+      </a>
 
-    </head>
-    <body>
-      <div class="main-container">
-        <header>
-          <div class="logo">
-
-              <a href="../index.html">
-              <img id="logo" src="img/logo.png" alt="Logo"/>
-              </a>
-              <a href="index.html">Brazo Robótico</a>
-          </div>
-          <div class="admin-view">
-            <a href="players/log-in.html" target="_blank"><button>Iniciar Sesión</button></a>
-            <a href="players/crear-cuenta.html" target="_blank"><button>Registro</button></a>
-          </div>
-
-        </header>
-
-            <div class="middle middle-current-ps">
-              <div class="me-gusta">
-                <div class="fb-like">
-
-                  <img src="img/lets-play.png" alt="Logo" id="lets-play">
-                  <a href="game-views/waiting-for-players.html">
-
-                    <button type="button" id="play-now">¡¡A jugar!!</button></a>
-                </div>
-              </div>
-            </div>
-
-
-        <footer>
-          <a href="players/about-us.html">Sobre nosotros</a>
-          <a href="players/help.html">Ayuda</a>
-          <a href="players/contact.html">Contacto</a>
-          <a href="players/team-points.html">Mis partidas</a>
-          <a href="players/blog.html">Blog</a>
-          <a href="players/instructions.html">Cómo jugar</a>
-          <a href="players/terms-and-conditions.html">Terminos y Condiciones</a>
-          <a href="players/profile-review.html">Mi perfil</a>
-          <a href="players/send-invitation-email.html">Invitar amigos</a>
-        </footer>
+      <div class="cont-arrow">
+        <ul class="father-list">
+          <li>
+            <img src="img/arrow.png" alt="dropdown" id="arrow">
+            <ul class="child-list">
+              <li><a href="#">Mis Perfil</a></li>
+              <li><a href="#">Mis Partidas</a></li>
+              <li><a href="#">Salir</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </body>
-  </html>
+
+    </header>
+    <div class="main-cube-cont">
+
+      <a class="cube-cont" href="load-game.html">
+        <img src="img/play.png" alt="Play">
+        <h3>Iniciar partida</h3>
+      </a>
+      <a class="cube-cont" href="#">
+        <img src="img/log.png" alt="Partidas">
+        <h3>Mis partidas</h3>
+      </a>
+      <a class="cube-cont" href="#">
+        <img src="img/friends.png" alt="Amigos">
+        <h3>Invitar amigos</h3>
+      </a>
+      <a class="cube-cont" href="#">
+        <img src="img/profile.png" alt="Perfil">
+        <h3>Mi perfil</h3>
+      </a>
+      <a class="cube-cont" href="#">
+        <img src="img/instruc.png" alt="Como Jugar">
+        <h3>¿Cómo jugar?</h3>
+      </a>
+
+    </div>
+
+    <footer>
+
+      <a href="#">Blog</a>
+      <a href="#">Sobre nosotros</a>
+      <a href="#">Contacto</a>
+      <a href="#">Terminos y Condiciones</a>
+      <a href="#">Ayuda</a>
+
+    </footer>
+  </body>
+</html>
