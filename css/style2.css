@@ -39,7 +39,7 @@ header a p
   margin-left: 10px;
 }
 
-.cont-arrow
+/* .cont-arrow
 {
   display: flex;
   justify-content: center;
@@ -49,6 +49,7 @@ header a p
   align-self: center;
   width: 100px;
   height: 30px;
+  border: 1px solid black;
 }
 
 .cont-arrow img
@@ -65,9 +66,10 @@ header a p
 .cont-list ul
 {
   border-radius: 5px;
+  width: 100px;
   font-size: 13px;
-  background: #F3F3F3;
-  border: 1px solid black;
+  background: #FFFFFF;
+  border: 1px solid #1bbcb2;
   flex-wrap: wrap;
   padding: 10px;
   list-style: none;
@@ -75,14 +77,76 @@ header a p
 
 .cont-list li
 {
-  /* border: 2px solid black; */
+  border: 2px solid black;
   margin: 5px 0px;
+  display: flex;
+  justify-content: center;
 }
 
-.cont-arrow:hover > .cont-list
+.cont-list li a
+{
+  color: #1F2E2E;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cont-arrow:hover > .cont-list,
+.cont-list:hover
 {
   display: block;
+} */
+
+.cont-arrow
+{
+  height: 10px;
+  align-self: center;
+  border: 1px solid green;
 }
+ul
+{
+  list-style: none;
+}
+
+.cont-arrow img
+{
+  width: 25px;
+  height: 25px;
+}
+
+.cont-arrow li a
+{
+  color: #1F2E2E;
+  display: block;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.cont-arrow li
+{
+  border: 1px solid red;
+}
+
+.cont-arrow li a:hover
+{
+  background-color: #1bbcb2;
+  color: #FFFFFF;
+}
+
+/* .cont-arrow li
+{
+  float: left;
+} */
+.cont-arrow li ul
+{
+  /* display: none; */
+}
+
+.cont-arrow
+{
+
+}
+
 
 footer
 {

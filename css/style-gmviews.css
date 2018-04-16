@@ -1,3 +1,4 @@
+/* game-view start */
 .main-cont-game
 {
   display: flex;
@@ -27,7 +28,6 @@
 }
 .buttons-game
 {
-  /* border-bottom: 1px solid black; */
   padding: 5px;
   display: flex;
   justify-content: space-between;
@@ -42,7 +42,6 @@
   justify-content: space-around;
   align-items: center;
   width: 40%;
-  /* border: 1px solid black; */
 }
 
 .cont-art
@@ -57,9 +56,6 @@
   width: 100px;
   height: 50px;
   font-size: 40px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 #button-left
@@ -73,6 +69,8 @@
   background-color: #3EFDD4;
   border-color: #3EFDD4;
 }
+
+/* game-view end */
 
 /* load-game start */
 .main-load-cube
@@ -190,6 +188,28 @@
     height: 80px;
   }
   /* load-game end */
+
+  /* game-view start */
+  .cont-game
+  {
+    width: 730px;
+    height: 430px;
+  }
+
+  .game-area
+  {
+    width: 700px;
+    height: 400px;
+  }
+
+  .buttons-game
+  {
+    padding: 5px;
+    width: 720px;
+    height: 70px;
+  }
+
+  /* game-view end */
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
@@ -235,6 +255,62 @@
     height: 80px;
   }
   /* load-game end */
+
+  /* game-view start */
+  .main-cont-game
+  {
+    height: 500px;
+  }
+  .cont-game
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 565px;
+    height: 460px;
+    background: linear-gradient(130deg, #1bbcb2 50%, #37b9e9);
+  }
+
+  .game-area
+  {
+    width: 535px;
+    height: 430px;
+    background-color: #FFFFFF;
+  }
+
+  .buttons-game
+  {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    height: 70px;
+  }
+
+  .cont-art,
+  .cont-buttons
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+  }
+
+  .cont-art
+  {
+    font-size: 20px;
+    border-bottom: 3px double #fa4094;
+  }
+
+  #button-left,
+  #button-right
+  {
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  /* game-view end */
 }
 
 @media only screen and (min-width: 350px) and (max-width: 575px)
