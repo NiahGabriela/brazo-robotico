@@ -5,60 +5,37 @@
     <title>Juego en Curso</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
-    <!-- <link rel="stylesheet" href="../css/style.css"> -->
-    <link rel="stylesheet" href="../css/style-gameview.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/style-gmviews.css">
     <link href="https://fonts.googleapis.com/css?family=Headland+One|Londrina+Solid|Monoton|Prosto+One" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon/pestaña.icon">
   </head>
 
   <body>
-    <div class="main-container">
-      <header>
-        <div class="logo">
-            <a href="index.html" id="a-img">
-            <img id="img-logo" src="../img/logo.png" alt="Logo"/>
-            </a>
-            <a href="index.html" id="name">Brazo Robótico</a>
-        </div>
-        <div class="button-logout">
-          <a href="http://www.google.com" target="_blank" id="but-log-out">Cerrar Sesión</a>
-        </div>
-      </header>
+    <header>
+      <a href="../index.html">
+        <img src="../img/logo.png" id="logo_img" alt="Logo">
+        <p>Brazo Robótico</p>
+      </a>
+    </header>
 
-      <div class="cont-play">
+    <div class="main-cont-game">
 
-        <div class="cont-game">
+      <div class="cont-game">
+        <div class="game-area">
+
         </div>
-
-        <div class="buttons-game">
-          <label for="art" id="num-art">Articulación No.</label>
-          <div id="art">3</div>
-          <button type="button" name="button-left" id="button-left">Left</button>
-          <button type="button" name="button-right" id="button-right">Right</button>
-        </div>
-
       </div>
 
-      <div class="cont-chat">
-
-          <div id="title-chat">
-              <p class="welcome">Chat</p>
-          </div>
-
-          <div id="chatbox"></div>
-
-          <div class="emojis">
-            <img src="../img/emojis.jpeg" alt="emojis">
-          </div>
-
-          <div class="input">
-            <form name="message" action="post">
-                <input name="usermsg" type="text" id="usermsg" size="63" />
-                <button type="submit" name="submitmsg">Enviar</button>
-                <!-- <input name="submitmsg" type="submit"  id="submitmsg" value="Send" /> -->
-            </form>
-          </div>
-
+      <div class="buttons-game">
+        <div class="cont-art">
+          <label for="art" id="num-art">Articulación No.</label>
+          <div id="art">3</div>
+        </div>
+        <div class="cont-buttons">
+          <button type="button" name="button-left" id="button-left">-</button>
+          <button type="button" name="button-right" id="button-right">+</button>
+        </div>
       </div>
 
     </div>
