@@ -1,4 +1,9 @@
-/*Contenedores index*/
+/*General start */
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
 
 html,
 body
@@ -15,12 +20,12 @@ body
 header
 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   height: 75.5px;
-  background-color: #01579B;
+  background: linear-gradient(130deg, #1bbcb2, #37b9e9);
 }
 
-header a
+header > a
 {
   display: flex;
   justify-content: flex-start;
@@ -38,23 +43,88 @@ header a p
   margin-left: 10px;
 }
 
+/* menu desplegable start */
+.cont-arrow
+{
+  width: 200px;
+  height: 30px;
+  margin-right: 20px;
+  align-self: center;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cont-arrow ul
+{
+  list-style: none;
+}
+
+.father-list img
+{
+  width: 30px;
+  height: 30px;
+}
+
+.father-list
+{
+  width: 200px;
+  position: absolute;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.child-list
+{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  overflow: hidden;
+  height: 0%;
+  transition: all .25s ease;
+}
+
+.cont-arrow > ul li a
+{
+  display: block;
+  padding: 10px 15px;
+  background: #EEEEEE;
+  color: #1F2E2E;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.child-list li a:hover
+{
+  background-color: #1bbcb2;
+}
+
+.father-list > li:hover > .child-list
+{
+  height: 120px;
+}
+/* menu desplegable end */
+
 footer
 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 75.5px;
   background-color: #1f2e2e;
+
 }
 
 footer a
 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   color: #EEEEEE;
-  width: 200px;
+  width: auto;
 }
 
 #logo_img
@@ -63,7 +133,7 @@ footer a
   width: 20%;
   height: 90%;
   opacity: 0.8;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin-top: 3px;
 }
 
@@ -76,7 +146,7 @@ footer a
   align-items: center;
   background-color: #EEEEEE;
   background-size: cover;
-  min-height: 90%;
+  height: 90%;
 }
 
 .cont-sign-adm,
@@ -151,7 +221,6 @@ footer a
 {
   display: flex;
   height: 90%;
-  border: 3px solid purple;
   justify-content: space-around;
   align-items: center;
 }
@@ -169,6 +238,7 @@ footer a
   text-decoration: none;
   color: #0288D1;
   transition: all 1s;
+  font-size: 13px;
 }
 
 .cube-cont:hover
@@ -196,10 +266,113 @@ footer a
   }
 }
 
+.cube-cont img
+{
+  width: 130px;
+  height: 130px;
+}
+
+/* load-game start */
+.main-load-cube
+{
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.load-cube
+{
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(130deg, #1bbcb2, #37b9e9);
+  margin: 30px;
+}
+
+.load-player
+{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  background-color: #F5F5F5;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.load-player p
+{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.loader-cube
+{
+  border-radius: 10px;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  /* border: 2px solid black; */
+}
+
+.loader1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-top: 3px solid #FF3333;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2.5s linear infinite;
+}
+
+.loader2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-top: 3px solid #1BBCB2;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  animation: spin 2.5s linear infinite;
+}
+
+.loader3
+{
+  border: 3px solid white;
+  border-top: 3px solid #37B9E9;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin
+{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+/* load-game end */
+
 @media only screen and (min-width: 993px) and (max-width: 1200px)
 {
+  /* index start */
   .cube-cont
   {
+    margin: 20px;
     width: 160px;
     height: 160px;
   }
@@ -214,6 +387,7 @@ footer a
     width: 110px;
     height: 110px;
   }
+  
   .unsub-user,
   .stats-opt h3
   {
@@ -262,6 +436,7 @@ footer a
   {
     width: 500px;
   }
+  /* signin and signup end */
 
   .main-cube-cont,
   .cont-opt,
@@ -271,15 +446,58 @@ footer a
     justify-content: center;
     align-items: center;
   }
+  
+    .cube-cont
+  {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .cube-cont:hover
+  {
+    transform: scale(1.1);
+  }
+
+  .cube-cont img
+  {
+    width: 150px;
+    height: 150px;
+  }
+  /* index end */
+
+  /* load-game start */
+  .loader1
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+  .loader2
+  {
+    width: 85px;
+    height: 85px;
+  }
+
+  .loader3
+  {
+    width: 80px;
+    height: 80px;
+  }
+  /* load-game end */
+  
+    
   .cont-opt h3,
   .cont-block h2
   {
     font-size: 2em;
   }
+
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
 {
+  /* signin and signup start */
   .cont-sign-adm,
   .cont-signin,
   .cont-signup
@@ -302,6 +520,7 @@ footer a
   {
     width: 300px;
   }
+  /* signin and signup end */
 
   .main-cube-cont,
   .cont-opt,
@@ -309,18 +528,75 @@ footer a
   {
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    height: auto;
   }
   .cube-cont
   {
-    width: 180px;
-    height: 180px;
-    margin-right: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .cube-cont:hover
+  {
+    transform: scale(1.1);
   }
 
   .cube-cont:first-of-type
   {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
+
+  .cube-cont img
+  {
+    width: 150px;
+    height: 150px;
+  }
+  /* index start end */
+
+  /* load-game start */
+  .main-load-cube
+  {
+    flex-wrap: wrap;
+  }
+  
+    .load-cube
+  {
+    width: 85%;
+  }
+
+  .load-player
+  {
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .loader-cube
+  {
+    width: 50%;
+  }
+
+  .loader1
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+  .loader2
+  {
+    width: 85px;
+    height: 85px;
+  }
+
+  .loader3
+  {
+    width: 80px;
+    height: 80px;
+  }
+  /* load-game end */
+  
   .cont-opt h3,
   .cont-block h2
   {
@@ -353,9 +629,40 @@ footer a
   {
     width: 180px;
   }
+  /* signin and signup end */
 
+  /* index start */
+  .main-cube-cont
+  {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .cube-cont
+  {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .cube-cont:hover
+  {
+    transform: scale(1.1);
+  }
+
+  .cube-cont img
+  {
+    width: 150px;
+    height: 150px;
+  }
+  /* index end */
+
+  /* General start */
   footer
   {
+    text-align: center;
     flex-wrap: wrap;
     height: 150px;
   }
@@ -365,11 +672,61 @@ footer a
     width: 400px;
   }
 
+    /* General end */
+
+  /* load-game start */
+  .main-load-cube
+  {
+    flex-wrap: wrap;
+  }
+
+  .load-cube
+  {
+    width: 85%;
+  }
+
+  .load-player
+  {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .load-player p
+  {
+    /* editar */
+    font-size: 20px;
+  }
+
+  .loader-cube
+  {
+    width: 50%;
+  }
+
+  .loader1
+  {
+    width: 90px;
+    height: 90px;
+  }
+
+  .loader2
+  {
+    width: 85px;
+    height: 85px;
+  }
+
+  .loader3
+  {
+    width: 80px;
+    height: 80px;
+  }
+  /* load-game end */
 }
 
 @media only screen and (max-width: 350px)
 {
-  .cont-sign-adm,
+
+  .cont-sign-adm, /*turururu*/
   .cont-signin,
   .cont-signup
   {
@@ -392,9 +749,40 @@ footer a
   {
     width: 160px;
   }
+  /* signin and signup end */
 
+  /* index start */
+  .main-cube-cont
+  {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .cube-cont
+  {
+    margin: 20px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .cube-cont:hover
+  {
+    transform: scale(1.1);
+  }
+
+  .cube-cont img
+  {
+    width: 130px;
+    height: 130px;
+  }
+  /* index end */
+
+  /* General start */
   footer
   {
+    text-align: center;
     flex-wrap: wrap;
     height: 150px;
   }
@@ -403,4 +791,53 @@ footer a
   {
     width: 400px;
   }
+  /* General end */
+
+  /* load-game start */
+  .main-load-cube
+  {
+    flex-wrap: wrap;
+  }
+
+  .load-cube
+  {
+    width: 85%;
+  }
+
+  .load-player
+  {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .load-player p
+  {
+    /* editar */
+    font-size: 20px;
+  }
+
+  .loader-cube
+  {
+    width: 50%;
+  }
+
+  .loader1
+  {
+    width: 70px;
+    height: 70px;
+  }
+
+  .loader2
+  {
+    width: 65px;
+    height: 65px;
+  }
+
+  .loader3
+  {
+    width: 60px;
+    height: 60px;
+  }
+  /* load-game end */
 }
