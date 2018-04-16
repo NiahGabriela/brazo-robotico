@@ -336,13 +336,13 @@ a.button
   margin-right: 3em;
 }
 
-.form select
+/* .form select
 {
   margin-bottom: 43%;
   margin-top: 5%;
   width: 50%;
   align-self: center;
-}
+} */
 
   /* ************Instrucciones************* */
 .middle-intructions
@@ -543,4 +543,118 @@ a.button
   }
 }
 
+/* Style for the box in the log in layout */
+
+.log-in-box
+{
+  flex-basis: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
+}
+
+.log-in-box input
+{
+  margin-bottom: 1em;
+}
+
+.log-in-box #forgetfull
+{
+  font-style: italic;
+  font-size: .7em;
+  text-align: right;
+  color: black;
+}
+
+/* estilo de los resultados del admin y demás consultas */
+
+.admin-request
+{
+  flex-basis: 45%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 8px/7px;
+  background-color: #EBEBEB;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #CBC9C9;
+}
+
+.admin-request h1
+{
+  margin-bottom: .3em;
+}
+
+.admin-request select
+{
+  width: 50%;
+  margin-bottom: 3em;
+  margin-left: 23%;
+}
+
+.admin-request input
+{
+  width: 10%;
+}
+
+.admin-request span
+{
+  margin-right: 0;
+  text-align: left;
+
+  display: inline;
+}
+
+.con-graph input
+{
+  margin-bottom: 20px;
+}
+
+.con-graph
+{
+  flex-basis: 40%;
+  margin-top: 3%;
+}
+
+.con-graph span
+{
+  font-weight: bolder;
+  margin-left: 0;
+}
+
+.grafica-container
+{
+  width: 100%;
+  height: 180px;
+  background-color: #A8E8CD;
+  border-radius: 10px;
+  align-items: flex-end;
+  overflow: scroll;
+}
+
+/* estilo de mis partidas */
+
+.form-partidas
+{
+
+  margin: 20px;
+  flex-basis: 25%;
+}
 /* ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ ◄ */
