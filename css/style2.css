@@ -259,6 +259,11 @@ footer a
     margin-left: 25%;
     margin-right: 25%;
   }
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
 }
 
 .cube-cont img
@@ -399,6 +404,11 @@ footer a
     margin-left: 25%;
     margin-right: 25%;
   }
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
 
 }
 
@@ -429,14 +439,15 @@ footer a
   /* signin and signup end */
 
   .main-cube-cont,
-  .cont-opt
+  .cont-opt,
+  .cont-block
   {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-
-  .cube-cont
+  
+    .cube-cont
   {
     margin: 20px;
     width: 200px;
@@ -474,6 +485,14 @@ footer a
     height: 80px;
   }
   /* load-game end */
+  
+    
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 2em;
+  }
+
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
@@ -504,7 +523,8 @@ footer a
   /* signin and signup end */
 
   .main-cube-cont,
-  .cont-opt
+  .cont-opt,
+  .cont-block
   {
     flex-wrap: wrap;
     justify-content: center;
@@ -540,8 +560,8 @@ footer a
   {
     flex-wrap: wrap;
   }
-
-  .load-cube
+  
+    .load-cube
   {
     width: 85%;
   }
@@ -576,6 +596,12 @@ footer a
     height: 80px;
   }
   /* load-game end */
+  
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 575px)
@@ -645,7 +671,8 @@ footer a
   {
     width: 400px;
   }
-  /* General end */
+
+    /* General end */
 
   /* load-game start */
   .main-load-cube
