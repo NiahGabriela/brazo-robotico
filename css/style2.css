@@ -276,6 +276,11 @@ footer a
   {
     font-size: 2em;
   }
+
+  .users-list label
+  {
+    font-size: 50em;
+  }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
@@ -364,7 +369,6 @@ footer a
   {
     width: 400px;
   }
-
 }
 
 @media only screen and (max-width: 350px)
