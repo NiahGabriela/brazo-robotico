@@ -50,11 +50,12 @@
   box-shadow: 10px 15px 55px grey;
 }
 
-.block-user
+.users-list
 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   border: 1px solid CadetBlue;
   border-radius: 5px;
   width: 90%;
@@ -64,6 +65,13 @@
   text-decoration: none;
   color: #0288D1;
   box-shadow: 6px 9px 9px grey;
+  overflow-x: scroll;
+}
+.users-list label
+{
+  margin-right: 15px;
+  margin-bottom: 3px;
+  font-size: 1.5em;
 }
 
 .unsub-user,
