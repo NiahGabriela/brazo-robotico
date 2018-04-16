@@ -1,0 +1,56 @@
+.error
+{
+    border: 2px solid SandyBrown;
+    border-radius: 5px;
+    background-color: LightSalmon;
+}
+
+#errorPass
+{
+  color: red;
+  visibility: hidden;
+}
+
+.cont-opt
+{
+  display: flex;
+  height: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.unsub-user,
+.stats-opt
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid CadetBlue;
+  border-radius: 5px;
+  width: 30%;
+  height: 65%;
+  padding: 20px;
+  text-decoration: none;
+  color: #0288D1;
+  transition: all 1s;
+  box-shadow: 10px 15px 55px gray;
+}
+
+.stats-opt img
+{
+  height: 220px;
+  width: 200px;
+}
+
+.unsub-user img
+{
+  height: 220px;
+  width: 200px;
+}
+
+.unsub-user:hover,
+.stats-opt:hover
+{
+  box-shadow: 10px 19px 135px CornflowerBlue   ;
+}
