@@ -216,6 +216,18 @@ footer a
   color: #00B0FF;
 }
 
+.error
+{
+  border: 1px solid red;
+}
+
+.errorMessage
+{
+  color: red;
+  font-style: italic;
+  font-size: 12px;
+}
+
 .main-cube-cont
 {
   display: flex;
