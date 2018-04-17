@@ -1,3 +1,3 @@
 let submitButtons = $('button[type=submit]');
 
-submitButtons.on('click,validatePass');
+submitButtons.on('click',validateData);
