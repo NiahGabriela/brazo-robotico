@@ -137,6 +137,7 @@ footer a
   margin-top: 3px;
 }
 
+.middle-admin,
 .main_cont
 {
   display: flex;
@@ -149,6 +150,7 @@ footer a
 }
 
 .cont-signin,
+.cont-sign-adm,
 .cont-signup
 {
   background-color: white;
@@ -344,6 +346,27 @@ footer a
 }
 /* load-game end */
 
+/* medias section */
+@media only screen and (min-width: 1202px) and (max-width: 1800px)
+{
+  #errorPass
+  {
+    margin-left: 5%;
+    margin-top: 3px;
+
+  }
+  #resp
+  {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
+}
+
 @media only screen and (min-width: 993px) and (max-width: 1200px)
 {
   /* index start */
@@ -364,12 +387,35 @@ footer a
     width: 110px;
     height: 110px;
   }
+
+  .unsub-user,
+  .stats-opt h3
+  {
+    margin: 20px;
+  }
+
+  #errorPass
+  {
+    margin-left: 5%;
+    margin-top: 3px;
+  }
+  #resp
+  {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
   /* index end */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px)
 {
   /* signin and signup start */
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
@@ -394,14 +440,16 @@ footer a
   /* signin and signup end */
 
   /* index start */
-  .main-cube-cont
+  .main-cube-cont,
+  .cont-opt,
+  .cont-block
   {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .cube-cont
+  .cube-cont,
   {
     margin: 20px;
     width: 200px;
@@ -439,11 +487,18 @@ footer a
     height: 80px;
   }
   /* load-game end */
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 2em;
+  }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
 {
   /* signin and signup start */
+
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
@@ -475,6 +530,12 @@ footer a
     align-items: center;
     height: auto;
   }
+  .cont-opt,
+  .cont-block
+  {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .cube-cont
   {
     margin: 20px;
@@ -496,6 +557,12 @@ footer a
   {
     width: 150px;
     height: 150px;
+  }
+
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
   }
   /* index start end */
 
@@ -545,6 +612,7 @@ footer a
 @media only screen and (min-width: 350px) and (max-width: 575px)
 {
   /* signin and signup start */
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
@@ -663,6 +731,7 @@ footer a
 @media only screen and (max-width: 350px)
 {
   /* signin and signup start */
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
