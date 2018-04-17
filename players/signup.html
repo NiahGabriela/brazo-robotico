@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="../css/style2.css">
+    <script src="../js/vendor/jquery-3.3.1.min.js"></script>
   </head>
   <body>
 
@@ -20,10 +21,10 @@
       <div class="cont-signup">
 
         <img src="../img/group.png" id="group_img" alt="group_img">
-        <input type="email" name="" id="e-mail" placeholder="E-mail">
-        <input type="text" name="username" id="username" placeholder="Username">
-        <input type="password" name="password" id="password" placeholder="Password">
-        <input type="password" name="repeat_password" id="repeat_password" placeholder="Repeat Password">
+        <input type="text" name="username" id="username" placeholder="Username" required data-type='username'>
+        <input type="email" name="email" id="e-mail" placeholder="E-mail" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <input type="password" name="repeat_password" id="repeat_password" placeholder="Repeat Password" required>
         <button type="submit" name="button-signup" id="signup">Sign up</button>
         <a id="label_signin" href="signin.html">Sign In</a>
 
@@ -39,6 +40,7 @@
       <a href="#">Ayuda</a>
 
     </footer>
-
+    <script type="text/javascript" src="../js/validate.js"></script>
+    <script type="text/javascript" src="../js/actions.js"></script>
   </body>
 </html>
