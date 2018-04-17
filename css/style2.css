@@ -149,8 +149,8 @@ footer a
   height: 90%;
 }
 
-.cont-sign-adm,
 .cont-signin,
+.cont-sign-adm,
 .cont-signup
 {
   background-color: white;
@@ -164,7 +164,6 @@ footer a
   padding: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
-  box-shadow: 10px 15px 55px gray;
 }
 
 #e-mail,
@@ -217,7 +216,7 @@ footer a
   color: #00B0FF;
 }
 
-.main-cube-cont,
+.main-cube-cont
 {
   display: flex;
   height: 90%;
@@ -244,26 +243,6 @@ footer a
 .cube-cont:hover
 {
   transform: scale(1.15);
-}
-
-@media only screen and (min-width: 1202px) and (max-width: 1800px)
-{
-  #errorPass
-  {
-    margin-left: 5%;
-    margin-top: 3px;
-
-  }
-  #resp
-  {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  .cont-opt h3,
-  .cont-block h2
-  {
-    font-size: 1.8em;
-  }
 }
 
 .cube-cont img
@@ -367,6 +346,27 @@ footer a
 }
 /* load-game end */
 
+/* medias section */
+@media only screen and (min-width: 1202px) and (max-width: 1800px)
+{
+  #errorPass
+  {
+    margin-left: 5%;
+    margin-top: 3px;
+
+  }
+  #resp
+  {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
+}
+
 @media only screen and (min-width: 993px) and (max-width: 1200px)
 {
   /* index start */
@@ -409,11 +409,12 @@ footer a
   {
     font-size: 1.8em;
   }
-
+  /* index end */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px)
 {
+  /* signin and signup start */
   .cont-sign-adm,
   .cont-signin,
   .cont-signup
@@ -438,6 +439,7 @@ footer a
   }
   /* signin and signup end */
 
+  /* index start */
   .main-cube-cont,
   .cont-opt,
   .cont-block
@@ -447,7 +449,7 @@ footer a
     align-items: center;
   }
 
-    .cube-cont
+  .cube-cont,
   {
     margin: 20px;
     width: 200px;
@@ -485,23 +487,17 @@ footer a
     height: 80px;
   }
   /* load-game end */
-
-
   .cont-opt h3,
   .cont-block h2
   {
     font-size: 2em;
-  }
-
-  .users-list label
-  {
-    font-size: 50em;
   }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
 {
   /* signin and signup start */
+
   .cont-sign-adm,
   .cont-signin,
   .cont-signup
@@ -526,14 +522,19 @@ footer a
   }
   /* signin and signup end */
 
-  .main-cube-cont,
-  .cont-opt,
-  .cont-block
+  /* index start */
+  .main-cube-cont
   {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: auto;
+  }
+  .cont-opt,
+  .cont-block
+  {
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .cube-cont
   {
@@ -557,6 +558,12 @@ footer a
     width: 150px;
     height: 150px;
   }
+
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
   /* index start end */
 
   /* load-game start */
@@ -565,7 +572,7 @@ footer a
     flex-wrap: wrap;
   }
 
-    .load-cube
+  .load-cube
   {
     width: 85%;
   }
@@ -600,16 +607,11 @@ footer a
     height: 80px;
   }
   /* load-game end */
-
-  .cont-opt h3,
-  .cont-block h2
-  {
-    font-size: 1.8em;
-  }
 }
 
 @media only screen and (min-width: 350px) and (max-width: 575px)
 {
+  /* signin and signup start */
   .cont-sign-adm,
   .cont-signin,
   .cont-signup
@@ -675,8 +677,7 @@ footer a
   {
     width: 400px;
   }
-
-    /* General end */
+  /* General end */
 
   /* load-game start */
   .main-load-cube
@@ -729,8 +730,8 @@ footer a
 
 @media only screen and (max-width: 350px)
 {
-
-  .cont-sign-adm, /*turururu*/
+  /* signin and signup start */
+  .cont-sign-adm,
   .cont-signin,
   .cont-signup
   {
