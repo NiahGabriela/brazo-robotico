@@ -137,6 +137,10 @@ footer a
   margin-top: 3px;
 }
 
+<<<<<<< HEAD
+=======
+.middle-admin,
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 .main_cont
 {
   display: flex;
@@ -148,6 +152,10 @@ footer a
   height: 90%;
 }
 
+<<<<<<< HEAD
+=======
+.cont-sign-adm,
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 .cont-signin,
 .cont-signup
 {
@@ -162,6 +170,10 @@ footer a
   padding: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
+<<<<<<< HEAD
+=======
+  box-shadow: 10px 15px 55px gray;
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 }
 
 #e-mail,
@@ -214,7 +226,11 @@ footer a
   color: #00B0FF;
 }
 
+<<<<<<< HEAD
 .main-cube-cont
+=======
+.main-cube-cont,
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 {
   display: flex;
   height: 90%;
@@ -243,6 +259,29 @@ footer a
   transform: scale(1.15);
 }
 
+<<<<<<< HEAD
+=======
+@media only screen and (min-width: 1202px) and (max-width: 1800px)
+{
+  #errorPass
+  {
+    margin-left: 5%;
+    margin-top: 3px;
+
+  }
+  #resp
+  {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
+}
+
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 .cube-cont img
 {
   width: 130px;
@@ -364,12 +403,42 @@ footer a
     width: 110px;
     height: 110px;
   }
+<<<<<<< HEAD
   /* index end */
+=======
+
+  .unsub-user,
+  .stats-opt h3
+  {
+    margin: 20px;
+  }
+
+  #errorPass
+  {
+    margin-left: 5%;
+    margin-top: 3px;
+  }
+  #resp
+  {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
+
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px)
 {
+<<<<<<< HEAD
   /* signin and signup start */
+=======
+  .cont-sign-adm,
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   .cont-signin,
   .cont-signup
   {
@@ -393,15 +462,25 @@ footer a
   }
   /* signin and signup end */
 
+<<<<<<< HEAD
   /* index start */
   .main-cube-cont
+=======
+  .main-cube-cont,
+  .cont-opt,
+  .cont-block
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
+<<<<<<< HEAD
   .cube-cont
+=======
+    .cube-cont
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   {
     margin: 20px;
     width: 200px;
@@ -439,11 +518,30 @@ footer a
     height: 80px;
   }
   /* load-game end */
+<<<<<<< HEAD
+=======
+
+
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 2em;
+  }
+
+  .users-list label
+  {
+    font-size: 50em;
+  }
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 }
 
 @media only screen and (min-width: 575px) and (max-width: 768px)
 {
   /* signin and signup start */
+<<<<<<< HEAD
+=======
+  .cont-sign-adm,
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   .cont-signin,
   .cont-signup
   {
@@ -467,8 +565,14 @@ footer a
   }
   /* signin and signup end */
 
+<<<<<<< HEAD
   /* index start */
   .main-cube-cont
+=======
+  .main-cube-cont,
+  .cont-opt,
+  .cont-block
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   {
     flex-wrap: wrap;
     justify-content: center;
@@ -505,7 +609,11 @@ footer a
     flex-wrap: wrap;
   }
 
+<<<<<<< HEAD
   .load-cube
+=======
+    .load-cube
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   {
     width: 85%;
   }
@@ -540,11 +648,24 @@ footer a
     height: 80px;
   }
   /* load-game end */
+<<<<<<< HEAD
+=======
+
+  .cont-opt h3,
+  .cont-block h2
+  {
+    font-size: 1.8em;
+  }
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 }
 
 @media only screen and (min-width: 350px) and (max-width: 575px)
 {
+<<<<<<< HEAD
   /* signin and signup start */
+=======
+  .cont-sign-adm,
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   .cont-signin,
   .cont-signup
   {
@@ -609,7 +730,12 @@ footer a
   {
     width: 400px;
   }
+<<<<<<< HEAD
   /* General end */
+=======
+
+    /* General end */
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
 
   /* load-game start */
   .main-load-cube
@@ -662,7 +788,12 @@ footer a
 
 @media only screen and (max-width: 350px)
 {
+<<<<<<< HEAD
   /* signin and signup start */
+=======
+
+  .cont-sign-adm, /*turururu*/
+>>>>>>> a5e674b2c391e1c9fd7a5924d7570542087701b5
   .cont-signin,
   .cont-signup
   {
