@@ -377,6 +377,12 @@ footer a
   {
     font-size: 1.8em;
   }
+  .cont-signup
+  {
+    margin: 6px;
+    padding: 10px;
+  }
+
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px)
@@ -420,6 +426,11 @@ footer a
   .cont-block h2
   {
     font-size: 1.8em;
+  }
+  .cont-signup
+  {
+    margin: 6px;
+    padding: 10px;
   }
   /* index end */
 }
