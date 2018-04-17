@@ -1,3 +1,4 @@
+// Admin pass validation
 
 let passAdmin = document.getElementById('password');
 var notTilCorrect = document.getElementById('signin');
@@ -31,3 +32,23 @@ function checkPass(evento)
     document.getElementById("errorPass").style.visibility = "visible";
   }
 }
+
+// adminCheckboxSelected
+
+$( '.block-bad' ).on( 'click', function()
+{
+    if( $(this).is(':checked') )
+    {
+      //$(this).addClass('block-user-bad');
+      $(this).parent().addClass('block-user-bad');
+
+      //$(this).prop('disabled', true).parent().addClass('block-user-bad');
+      confirm("¿Desea bloquear al usuario? ");
+    }
+    else
+    {
+      $(this).parent().removeClass('block-user-bad');
+            //$(this).prop('disabled', false).parent().addClass('block-user-bad');
+        confirm("¿Desea desbloquear al usuario? ");
+    }
+});
