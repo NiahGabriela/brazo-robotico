@@ -166,7 +166,7 @@ footer a
   margin-bottom: 10px;
 }
 
-#e-mail,
+#email,
 #username,
 #password,
 #repeat_password
@@ -189,7 +189,7 @@ footer a
   border-radius: 5px;
 }
 
-#e-mail:focus,
+#email:focus,
 #username:focus,
 #password:focus,
 #repeat_password:focus
@@ -447,7 +447,7 @@ footer a
     flex-basis: 560px;
   }
 
-  #e-mail,
+  #email,
   #username,
   #password,
   #repeat_password
@@ -530,7 +530,7 @@ footer a
     flex-basis: 360px;
   }
 
-  #e-mail,
+  #email,
   #username,
   #password,
   #repeat_password
@@ -645,7 +645,7 @@ footer a
     padding: 40px;
   }
 
-  #e-mail,
+  #email,
   #username,
   #password,
   #repeat_password
@@ -764,7 +764,7 @@ footer a
     padding: 40px;
   }
 
-  #e-mail,
+  #email,
   #username,
   #password,
   #repeat_password
