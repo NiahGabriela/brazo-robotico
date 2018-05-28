@@ -75,7 +75,7 @@ html += `<label><input type="checkbox" class="block-bad"/> stay girls </label>`;
         //$(this).prop('disabled', true).parent().addClass('block-user-bad');
         confirm("¿Desea bloquear al usuario? ");
 
-        $.put(`http://localhost:3000/users/ ${selectedLabel}`, function()
+        $.put( 'http://localhost:3000/users/ ', function()
         {
 
         });
