@@ -13,12 +13,10 @@ $('#signup').on('click', function() {
 
  	console.log(usuario.username+" "+usuario.email+" "+usuario.password);
 
- 	$.post('http://localhost:3000/users', usuario, function(result){// la direccion se tiene que modificar una vez
+ 	$.post('https://brazo-api.herokuapp.com/users', usuario, function(result){// la direccion se tiene que modificar una vez
     //se suba al server
     console.log('impresion para saber que esta funcionando ***');
-   	// alertify.alert("Cuenta creada", function(){
-     	
-   	// });
+    window.location.replace('index.html');
  	});
 
   });
