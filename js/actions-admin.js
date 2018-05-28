@@ -41,8 +41,8 @@ $('document').ready(function() {
     console.log('bpollo');
     console.log(data);
     var html = ``;
-    html += `<label><input type="checkbox" class="block-bad"/> wowoow </label>`;
-    html += `<label><input type="checkbox" class="block-bad"/> stay girls </label>`;
+  html += `<label><input type="checkbox" class="block-bad"/> wowoow </label>`;
+  html += `<label><input type="checkbox" class="block-bad"/> stay girls </label>`;
     $.each(data, function(index, value) {
       html += `<label><input type="checkbox" class="block-bad"/> ${value.name} </label>`;
         // html += `<td>`;
