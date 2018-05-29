@@ -34,14 +34,19 @@
     Cómo contribuir
     Las contribuciones serán bienvenidas para mejorar el ambiente o la jugabilidad.
 
+    El repositorio del front del proyecto lo puede encontrar en la siguiente dirección https://github.com/NiahGabriela/brazo-robotico
+    El proyecto hace uso de una API que puede encontrar en el siguiente repositorio
+    https://github.com/NiahGabriela/brazo-robotico-api
+
+    La coleccion de Postman para hacer pruebas se encuentra disponible en el siguiente enlace:
+    https://www.getpostman.com/collections/faadb9c7c7d71744a386 
+
 
     AUTORAS:
     Diana Gabriela Hernández Gómez    
     GITHUB :https://github.com/NiahGabriela
     Pilar Alejandra Izquierdo Lopez   
     GITHUB :https://github.com/pilaralejandra
-    Shannen Sabdiel Heredia Gutierrez
-    GITHUB :https://github.com/ShannenHeredia
 
     TIPO DE LICENCIA:
     GLP GNU
