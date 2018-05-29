@@ -39,7 +39,7 @@
     https://github.com/NiahGabriela/brazo-robotico-api
 
     La coleccion de Postman para hacer pruebas se encuentra disponible en el siguiente enlace:
-    https://www.getpostman.com/collections/faadb9c7c7d71744a386 
+    https://www.getpostman.com/collections/faadb9c7c7d71744a386
 
 
     AUTORAS:
